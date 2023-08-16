@@ -23,10 +23,10 @@ const DeskTopMenu = () => {
       <nav className="main-menu d-none d-xl-block">
         <ul>
           <li>
-          <Link href="/">Home</Link>
+            <Link href="/">Home</Link>
           </li>
           <li>
-          <Link href="tour">Tours</Link>
+            <Link href="tour">Tours</Link>
           </li>
           <li className="menu-item has-children">
             <a href="#">
@@ -40,15 +40,19 @@ const DeskTopMenu = () => {
                 <Link href="destination">Destinations</Link>
               </li>
               <li>
-                <Link href="nairobi-park">NAIROBI NATIONAL PARK & GIRAFFE PARK</Link>
+                <Link href="nairobi-park">
+                  NAIROBI NATIONAL PARK & GIRAFFE PARK
+                </Link>
               </li>
               <li>
                 <Link href="Kereita">KEREITA ZIPLINING ADVENTURE</Link>
               </li>
+              <li>
+                <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
+              </li>
             </ul>
           </li>
-          
-          
+
           <li className="menu-item search-item">
             <div
               className="search-btn"
@@ -74,44 +78,13 @@ const MobileMenu = () => {
   return (
     <nav className="main-menu d-block d-xl-none">
       <ul>
-        <li className="menu-item has-children">
-          <a href="#">
-            Home
-            <span className="dd-trigger" onClick={() => activeMenuSet("home")}>
-              <i className="far fa-angle-down" />
-            </span>
-          </a>
-          <ul className="sub-menu" style={activeLi("home")}>
-            <li>
-              <Link href="/">Home 01</Link>
-            </li>
-            <li>
-              <Link href="index-2">Home 02</Link>
-            </li>
-            <li>
-              <Link href="index-3">Home 03</Link>
-            </li>
-            <li>
-              <Link href="index-4">Home 04</Link>
-            </li>
-          </ul>
+        <li>
+          <Link href="/">Home</Link>
         </li>
-        <li className="menu-item has-children">
-          <a href="#">
-            Tours
-            <span className="dd-trigger" onClick={() => activeMenuSet("Tours")}>
-              <i className="far fa-angle-down" />
-            </span>
-          </a>
-          <ul className="sub-menu" style={activeLi("Tours")}>
-            <li>
-              <Link href="tour">Tours</Link>
-            </li>
-            <li>
-              <Link href="tour-details">Tours Details</Link>
-            </li>
-          </ul>
+        <li>
+          <Link href="tours">Tours</Link>
         </li>
+   
         <li className="menu-item has-children">
           <a href="#">
             Destination
@@ -127,54 +100,19 @@ const MobileMenu = () => {
               <Link href="destination">Destination</Link>
             </li>
             <li>
-              <Link href="destination-details">Destination Details</Link>
-            </li>
+                <Link href="nairobi-park">
+                  NAIROBI NATIONAL PARK & GIRAFFE PARK
+                </Link>
+              </li>
+              <li>
+                <Link href="Kereita">KEREITA ZIPLINING ADVENTURE</Link>
+              </li>
+              <li>
+                <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
+              </li>
           </ul>
         </li>
-        <li className="menu-item has-children">
-          <a href="#">
-            Blog
-            <span className="dd-trigger" onClick={() => activeMenuSet("Blog")}>
-              <i className="far fa-angle-down" />
-            </span>
-          </a>
-          <ul className="sub-menu" style={activeLi("Blog")}>
-            <li>
-              <Link href="blog-list">Blog List</Link>
-            </li>
-            <li>
-              <Link href="blog-details">Blog Details</Link>
-            </li>
-          </ul>
-        </li>
-        <li className="menu-item has-children">
-          <a href="#">
-            Pages
-            <span className="dd-trigger" onClick={() => activeMenuSet("Pages")}>
-              <i className="far fa-angle-down" />
-            </span>
-          </a>
-          <ul className="sub-menu" style={activeLi("Pages")}>
-            <li>
-              <Link href="about">About Us</Link>
-            </li>
-            <li>
-              <Link href="gallery">Our Gallery</Link>
-            </li>
-            <li>
-              <Link href="events">Our Events</Link>
-            </li>
-            <li>
-              <Link href="shop">Our Shop</Link>
-            </li>
-            <li>
-              <Link href="product-details">Product Details</Link>
-            </li>
-            <li>
-              <Link href="contact">Contact</Link>
-            </li>
-          </ul>
-        </li>
+        
         <li className="menu-item search-item">
           <div
             className="search-btn"
