@@ -1,7 +1,28 @@
-import GallerySection from "@/src/components/GallerySection";
+import React from "react";
+import emailjs from "emailjs-com";
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
+
 const Contact = () => {
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    // Replace these with your EmailJS credentials
+    const serviceID = "service_rw71g7a";
+    const templateID = "template_jfn64xl";
+    const userID = "93T2Yd_Ri_Gaap8Sw4O9U";
+
+    emailjs.sendForm(serviceID, templateID, e.target, userID).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+
+    e.target.reset();
+  };
   return (
     <Layout extraClass={"pt-160"}>
       <PageBanner pageTitle={"Contact Us"} />
@@ -42,10 +63,9 @@ const Contact = () => {
                   <span className="title">Email Address</span>
                   <p>
                     <a href="mailto:royalbushsafariske@gmail.com">
-                    royalbushsafariske@gmail.com
+                      royalbushsafariske@gmail.com
                     </a>
                   </p>
-                 
                 </div>
               </div>
             </div>
@@ -60,7 +80,6 @@ const Contact = () => {
                   <p>
                     <a href="tel:+254115880418">+254115880418</a>
                   </p>
-              
                 </div>
               </div>
             </div>
@@ -68,7 +87,7 @@ const Contact = () => {
         </div>
       </section>
       {/*====== End Info Section ======*/}
-      
+
       {/*====== Start Contact Section ======*/}
       <section className="contact-section pb-100">
         <div className="container">
@@ -119,14 +138,17 @@ const Contact = () => {
                       </div>
                     </div>
                     <div className="col-lg-6">
-                      <div className="form_group">
-                        <input
-                          type="url"
-                          placeholder="Website"
-                          className="form_control"
-                          name="website"
-                          required
-                        />
+                      <div className="form_group text-center">
+                        {/* Add a package select field */}
+                        <div className="form_group">
+                          <select className="form_control" name="package">
+                            <option value="Package 1"> Nairobi National Park and Giraffe center</option>
+                            <option value="Package 2">Kereita Ziplining Adventure</option>
+                            <option value="Package 3">Nkasiri Adventure Park</option>
+                            <option value="Package 4">2 Days Masai Mara</option>
+
+                          </select>
+                        </div>
                       </div>
                     </div>
                     <div className="col-lg-12">
@@ -142,7 +164,10 @@ const Contact = () => {
                     </div>
                     <div className="col-lg-12">
                       <div className="form_group text-center">
-                        <button className="main-btn primary-btn">
+                        <button
+                          className="main-btn primary-btn"
+                          onClick={sendEmail}
+                        >
                           Send Us Message
                           <i className="fas fa-paper-plane" />
                         </button>
@@ -155,9 +180,9 @@ const Contact = () => {
           </div>
         </div>
       </section>
+
       {/*====== End Contact Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
       {/*====== End Gallery Section ======*/}
     </Layout>
   );
