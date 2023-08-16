@@ -42,6 +42,9 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="nairobi-park">NAIROBI NATIONAL PARK & GIRAFFE PARK</Link>
               </li>
+              <li>
+                <Link href="Kereita">KEREITA ZIPLINING ADVENTURE</Link>
+              </li>
             </ul>
           </li>
           
