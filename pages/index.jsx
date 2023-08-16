@@ -330,7 +330,7 @@ const Index3 = () => {
                     {/*=== We Image ===*/}
                     <div className="we-image mb-30">
                       <img
-                        src="assets/images/gallery/we-1.jpg"
+                        src="https://royalbushsafaris.co.ke/assets/images/about/about002.jpg"
                         alt="we Image"
                       />
                     </div>
@@ -339,7 +339,7 @@ const Index3 = () => {
                     {/*=== We Image ===*/}
                     <div className="we-image mb-30">
                       <img
-                        src="assets/images/gallery/about-002.jpg"
+                        src="https://royalbushsafaris.co.ke/assets/images/about/about001.jpg"
                         alt="we Image"
                       />
                     </div>
@@ -348,7 +348,7 @@ const Index3 = () => {
                     {/*=== We Image ===*/}
                     <div className="we-image mb-30 pr-lg-30 text-md-end">
                       <img
-                        src="assets/images/gallery/about-003.jpg"
+                        src="https://royalbushsafaris.co.ke/assets/images/about/about003.jpg"
                         alt="we Image"
                       />
                     </div>
@@ -361,7 +361,7 @@ const Index3 = () => {
               <div className="we-content-box pl-lg-50 mb-10">
                 {/*=== Section Title ===*/}
                 <div className="section-title mb-30">
-                  <span className="sub-title">Exploe with us</span>
+                  <span className="sub-title">Explore with us</span>
                   <h2>An Awesome Opportunity For Tours &amp; Travels</h2>
                 </div>
                 {/*=== Features List ===*/}

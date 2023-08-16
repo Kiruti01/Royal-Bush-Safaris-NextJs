@@ -1,4 +1,3 @@
-import GallerySection from "@/src/components/GallerySection";
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
@@ -537,7 +536,7 @@ const Tour = () => {
       </section>
       {/*====== End Places Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      
       {/*====== End Gallery Section ======*/}
     </Layout>
   );

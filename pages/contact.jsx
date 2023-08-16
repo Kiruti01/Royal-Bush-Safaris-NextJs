@@ -28,7 +28,7 @@ const Contact = () => {
                 </div>
                 <div className="info">
                   <span className="title">Office Location</span>
-                  <p>55 Main Street, 2nd Floor New York City</p>
+                  <p>Coming soon!</p>
                 </div>
               </div>
             </div>
@@ -41,13 +41,11 @@ const Contact = () => {
                 <div className="info">
                   <span className="title">Email Address</span>
                   <p>
-                    <a href="mailto:supportinfo@gmail.com">
-                      supportinfo@gmail.com
+                    <a href="mailto:royalbushsafariske@gmail.com">
+                    royalbushsafariske@gmail.com
                     </a>
                   </p>
-                  <p>
-                    <a href="mailto:traveladventure.net">traveladventure.net</a>
-                  </p>
+                 
                 </div>
               </div>
             </div>
@@ -60,11 +58,9 @@ const Contact = () => {
                 <div className="info">
                   <span className="title">Hotline</span>
                   <p>
-                    <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                    <a href="tel:+254115880418">+254115880418</a>
                   </p>
-                  <p>
-                    <a href="tel:+8596320">+859 63 20</a>
-                  </p>
+              
                 </div>
               </div>
             </div>
@@ -72,14 +68,7 @@ const Contact = () => {
         </div>
       </section>
       {/*====== End Info Section ======*/}
-      {/*====== Start Contact Map Section ======*/}
-      <section className="contact-page-map pb-100 wow fadeInUp">
-        {/*=== Map Box ===*/}
-        <div className="map-box">
-          <iframe src="https://maps.google.com/maps?q=new%20york&t=&z=13&ie=UTF8&iwloc=&output=embed" />
-        </div>
-      </section>
-      {/*====== End Contact Map Section ======*/}
+      
       {/*====== Start Contact Section ======*/}
       <section className="contact-section pb-100">
         <div className="container">
