@@ -330,7 +330,7 @@ const Index3 = () => {
                     {/*=== We Image ===*/}
                     <div className="we-image mb-30">
                       <img
-                        src="assets/images/gallery/about001.jpg"
+                        src="assets/images/gallery/we-1.jpg"
                         alt="we Image"
                       />
                     </div>
