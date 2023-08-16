@@ -84,7 +84,7 @@ const Tour = () => {
                   <div className="info">
     
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/Kereita">
                         <a>Kereita Ziplining Adventure</a>
                       </Link>
                     </h4>
@@ -98,7 +98,7 @@ const Tour = () => {
                     </p>
                     <div className="meta">
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/Kereita">
                           <a>
                             Book Now
                             <i className="far fa-long-arrow-right" />
@@ -123,8 +123,8 @@ const Tour = () => {
                   <div className="info">
                     
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
-                        <a>2 days Masai Mara wildbeest migration</a>
+                      <Link legacyBehavior href="/Mara">
+                        <a>2 days Masai Mara </a>
                       </Link>
                     </h4>
                     <p className="location">
@@ -142,7 +142,7 @@ const Tour = () => {
                       </span>
                       
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/Mara">
                           <a>
                             Book Now
                             <i className="far fa-long-arrow-right" />
@@ -167,7 +167,7 @@ const Tour = () => {
                   <div className="info">
                     
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/nairobi-park">
                         <a>Nairobi National Park & Giraffe center</a>
                       </Link>
                     </h4>
@@ -182,7 +182,7 @@ const Tour = () => {
                     <div className="meta">
                      
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/nairobi-park">
                           <a>
                             Book Now
                             <i className="far fa-long-arrow-right" />
@@ -207,7 +207,7 @@ const Tour = () => {
                   <div className="info">
                    
                     <h4 className="title">
-                      <Link legacyBehavior href="/tour-details">
+                      <Link legacyBehavior href="/nkasiri">
                         <a>Nkasiri Adventure Park</a>
                       </Link>
                     </h4>
@@ -222,7 +222,7 @@ const Tour = () => {
                     <div className="meta">
                      
                       <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/nkasiri">
                           <a>
                             Book Now
                             <i className="far fa-long-arrow-right" />

@@ -50,6 +50,9 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
               </li>
+              <li>
+                <Link href="mara">2DAYS MAASAI MARA</Link>
+              </li>
             </ul>
           </li>
 
@@ -109,6 +112,9 @@ const MobileMenu = () => {
               </li>
               <li>
                 <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
+              </li>
+              <li>
+                <Link href="mara">2DAYS MAASAI MARA</Link>
               </li>
           </ul>
         </li>

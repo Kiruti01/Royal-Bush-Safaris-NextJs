@@ -162,12 +162,12 @@ const DestinationDetails = () => {
                 <div className="single-gallery-item mb-30">
                   <div className="gallery-img">
                     <img
-                      src="https://twendesasa.com/wp-content/uploads/2022/11/List-Of-Best-Paintball-Locations-In-Kenya-5.jpg"
+                      src="https://media-cdn.tripadvisor.com/media/photo-s/1c/a9/93/0d/nkasiri-adventure-park.jpg"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="https://twendesasa.com/wp-content/uploads/2022/11/List-Of-Best-Paintball-Locations-In-Kenya-5.jpg"
+                        href="https://media-cdn.tripadvisor.com/media/photo-s/1c/a9/93/0d/nkasiri-adventure-park.jpg"
                         className="icon-btn img-popup"
                       >
                         <i className="far fa-plus" />
@@ -179,12 +179,12 @@ const DestinationDetails = () => {
                 <div className="single-gallery-item mb-30">
                   <div className="gallery-img">
                     <img
-                      src="https://victormatara.com/wp-content/uploads/2021/12/Kereita-Forest-Zip-Lining-Charges-1200x720.jpeg"
+                      src="https://comewithmeonabudgettravel.files.wordpress.com/2021/03/20210314_130227.jpg"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="https://victormatara.com/wp-content/uploads/2021/12/Kereita-Forest-Zip-Lining-Charges-1200x720.jpeg"
+                        href="https://comewithmeonabudgettravel.files.wordpress.com/2021/03/20210314_130227.jpg"
                         className="icon-btn img-popup"
                       >
                         <i className="far fa-plus" />
@@ -196,12 +196,12 @@ const DestinationDetails = () => {
                 <div className="single-gallery-item mb-30">
                   <div className="gallery-img">
                     <img
-                      src="https://i.ytimg.com/vi/X0Ungf_NeYc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDQ9OxS0KWPzlTjcgOyNg3ngmctCg"
+                      src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/49/ac/d5/nkasiri-adventure-park.jpg?w=700&h=-1&s=1"
                       alt="Gallery Image"
                     />
                     <div className="hover-overlay">
                       <a
-                        href="https://i.ytimg.com/vi/X0Ungf_NeYc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDQ9OxS0KWPzlTjcgOyNg3ngmctCg"
+                        href="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/49/ac/d5/nkasiri-adventure-park.jpg?w=700&h=-1&s=1"
                         className="icon-btn img-popup"
                       >
                         <i className="far fa-plus" />
