@@ -40,7 +40,7 @@ const DeskTopMenu = () => {
                 <Link href="destination">Destinations</Link>
               </li>
               <li>
-                <Link href="destination-details">Destination Details</Link>
+                <Link href="nairobi-park">NAIROBI NATIONAL PARK & GIRAFFE PARK</Link>
               </li>
             </ul>
           </li>
