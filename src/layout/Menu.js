@@ -85,7 +85,7 @@ const MobileMenu = () => {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="tours">Tours</Link>
+          <Link href="tour">Tours</Link>
         </li>
    
         <li className="menu-item has-children">
