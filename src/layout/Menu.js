@@ -25,21 +25,8 @@ const DeskTopMenu = () => {
           <li>
           <Link href="/">Home</Link>
           </li>
-          <li className="menu-item has-children">
-            <a href="#">
-              Tours
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="tour">Tours</Link>
-              </li>
-              <li>
-                <Link href="tour-details">Tours Details</Link>
-              </li>
-            </ul>
+          <li>
+          <Link href="tour">Tours</Link>
           </li>
           <li className="menu-item has-children">
             <a href="#">
@@ -50,57 +37,15 @@ const DeskTopMenu = () => {
             </a>
             <ul className="sub-menu">
               <li>
-                <Link href="destination">Destination</Link>
+                <Link href="destination">Destinations</Link>
               </li>
               <li>
                 <Link href="destination-details">Destination Details</Link>
               </li>
             </ul>
           </li>
-          <li className="menu-item has-children">
-            <a href="#">
-              Blog
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="blog-list">Blog List</Link>
-              </li>
-              <li>
-                <Link href="blog-details">Blog Details</Link>
-              </li>
-            </ul>
-          </li>
-          <li className="menu-item has-children">
-            <a href="#">
-              Pages
-              <span className="dd-trigger">
-                <i className="far fa-angle-down" />
-              </span>
-            </a>
-            <ul className="sub-menu">
-              <li>
-                <Link href="about">About Us</Link>
-              </li>
-              <li>
-                <Link href="gallery">Our Gallery</Link>
-              </li>
-              <li>
-                <Link href="events">Our Events</Link>
-              </li>
-              <li>
-                <Link href="shop">Our Shop</Link>
-              </li>
-              <li>
-                <Link href="product-details">Product Details</Link>
-              </li>
-              <li>
-                <Link href="contact">Contact</Link>
-              </li>
-            </ul>
-          </li>
+          
+          
           <li className="menu-item search-item">
             <div
               className="search-btn"
