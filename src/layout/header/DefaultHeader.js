@@ -21,7 +21,11 @@ const DefaultHeader = () => {
               {/*====== Information Wrapper ======*/}
               <div className="information-wrapper">
                 <div className="row">
-                  
+                <div className="col-lg-4">
+                    <div className="single-info-item-two">
+                      
+                    </div>
+                  </div>
                   <div className="col-lg-4">
                     <div className="single-info-item-two">
                       <div className="inner-info">

@@ -306,12 +306,9 @@ const Tour = () => {
                     <div className="meta">
                       <span>
                         <i className="far fa-clock" />
-                        05 Days
+                        03 Days
                       </span>
-                      <span>
-                        <i className="far fa-user" />
-                        25
-                      </span>
+                   
                       <span>
                         <Link legacyBehavior href="/tour-details">
                           <a>
