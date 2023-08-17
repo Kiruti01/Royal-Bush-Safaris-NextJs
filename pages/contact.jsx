@@ -1,38 +1,49 @@
-import React, { useRef, useState } from "react";
-import emailjs from "@emailjs/browser";
+import React from "react";
+import emailjs from "emailjs-com";
 import PageBanner from "@/src/components/PageBanner";
-
 import Layout from "@/src/layout/Layout";
 
 const Contact = () => {
- 
-  const form = useRef();
-  const [done, setDone] = useState(false)
-  const sendEmail = (e) => {
+  // Initialize EmailJS
+  emailjs.init("user_yourEmailJSUserID");
+
+  const sendEmail = async (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
+    const name = e.target.name.value;
+    const number = e.target.number.value;
+    const email = e.target.email.value;
+    const text = e.target.text.value;
+    const message = e.target.message.value;
+
+    try {
+      const response = await emailjs.send(
         "service_sfczkln",
-        "template_m5udu2c",
-        form.current,
-        "VLwg1ltOWvnCYAiK_"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setDone(true);
-          form.reset();
+        "template_jfn64xl",
+        {
+          name: name,
+          number: number,
+          email: email,
+          text: text,
+          message: message,
         },
-        (error) => {
-          console.log(error.text);
-        }
+        "bgF-y94qH6tAch-To"
       );
+
+      console.log("SUCCESS!", response.status, response.text);
+      alert("Email sent successfully.");
+    } catch (error) {
+      console.error("Error:", error);
+    }
+
+    e.target.reset();
   };
+
   return (
     <Layout extraClass={"pt-160"}>
       <PageBanner pageTitle={"Contact Us"} />
-      {/*====== Start Info Section ======*/}
+
+      {/* Info Section */}
       <section className="contact-info-section pt-100 pb-60">
         <div className="container">
           <div className="row justify-content-center">
@@ -92,55 +103,105 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      {/*====== End Info Section ======*/}
 
-      {/*====== Start Contact Section ======*/}
+      {/* Contact Form Section */}
       <section className="contact-section pb-100">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-6">
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">Get In Touch</span>
-                <h2>Send Us Message</h2>
+                <h2>Send Us a Message</h2>
               </div>
             </div>
           </div>
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="contact-area wow fadeInUp">
-                <form ref={form} onSubmit={sendEmail}>
-                  <input
-                    type="text"
-                    name="user_name"
-                    className="user"
-                    placeholder="Name"
-                  />
-                  <input
-                    type="email"
-                    name="user_email"
-                    className="user"
-                    placeholder="Email"
-                  />
-                  <textarea
-                    name="message"
-                    className="user"
-                    placeholder="Message"
-                  />
-                  <input type="submit" value="Send" className="button" />
-                  <span>{done && "Thanks for Contacting me"}</span>
-                  <div
-                    className="blur c-blur1"
-                    style={{ background: "var(--purple)" }}
-                  ></div>
+                <form className="contact-form" onSubmit={sendEmail}>
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="form_group">
+                        <input
+                          type="text"
+                          placeholder="Name"
+                          className="form_control"
+                          name="name"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="form_group">
+                        <input
+                          type="number"
+                          placeholder="Phone Number"
+                          className="form_control"
+                          name="number"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="form_group">
+                        <input
+                          type="email"
+                          placeholder="Email Address"
+                          className="form_control"
+                          name="email"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                      <div className="form_group text-center">
+                        {/* Add a package select field */}
+                        <div className="form_group">
+                          <select className="form_control" name="text">
+                            <option value="Nairobi National Park and Giraffe Center">
+                              Nairobi National Park and Giraffe Center
+                            </option>
+                            <option value="Kereita Ziplining Adventure">
+                              Kereita Ziplining Adventure
+                            </option>
+                            <option value="Nkasiri Adventure Park">
+                              Nkasiri Adventure Park
+                            </option>
+                            <option value="2 Days Masai Mara">
+                              2 Days Masai Mara
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="form_group">
+                        <textarea
+                          name="message"
+                          placeholder="Write Message"
+                          className="form_control"
+                          rows={6}
+                          defaultValue={""}
+                        />
+                      </div>
+                    </div>
+                    <div className="col-lg-12">
+                      <div className="form_group text-center">
+                        <button className="main-btn primary-btn" type="submit">
+                          Send Us Message
+                          <i className="fas fa-paper-plane" />
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </form>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      {/*====== End Contact Section ======*/}
     </Layout>
   );
 };
+
 export default Contact;
