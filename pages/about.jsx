@@ -202,7 +202,7 @@ const About = () => {
                   <div className="col-md-6">
                     <div className="we-image mb-30 wow fadeInLeft">
                       <img
-                        src="assets/images/gallery/we-3.jpg"
+                        src="https://royalbushsafaris.co.ke/assets/images/about/about001.jpg"
                         alt="we Image"
                       />
                     </div>
@@ -210,7 +210,7 @@ const About = () => {
                   <div className="col-md-6">
                     <div className="we-image mb-30 wow fadeInRight">
                       <img
-                        src="assets/images/gallery/we-4.jpg"
+                        src="https://royalbushsafaris.co.ke/assets/images/about/about002.jpg"
                         alt="we Image"
                       />
                     </div>
@@ -218,7 +218,7 @@ const About = () => {
                   <div className="col-md-12">
                     <div className="we-image mb-30 pr-lg-30 text-md-end wow fadeInDown">
                       <img
-                        src="assets/images/gallery/we-5.jpg"
+                        src="https://royalbushsafaris.co.ke/assets/images/about/about003.jpg"
                         alt="we Image"
                       />
                     </div>
