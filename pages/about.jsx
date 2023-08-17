@@ -1,9 +1,7 @@
-import GallerySection from "@/src/components/GallerySection";
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
-import { partnerSliderOne, testimonialSliderOne } from "@/src/sliderProps";
 import Link from "next/link";
-import Slider from "react-slick";
+
 const About = () => {
   return (
     <Layout extraClass={"pt-160"}>
@@ -73,7 +71,7 @@ const About = () => {
               {/*====== Single Team Item ======*/}
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
-                  <img src="assets/images/team/" alt="Team Image" />
+                  <img src="https://pps.whatsapp.net/v/t61.24694-24/366754427_1040240457014728_8994561456857686225_n.jpg?ccb=11-4&oh=01_AdSD5KWFyB2FVUAbOKn6tLbRj8c_RIdZ2FvNcy7N4e2Cpg&oe=64EA448D" alt="Team Image" />
                 </div>
                 <div className="member-info">
                   <h4 className="title">Harold Lehns</h4>
@@ -103,40 +101,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-12">
-              {/*====== Single Team Item ======*/}
-              <div className="single-team-item mb-30 wow fadeInUp">
-                <div className="member-img">
-                  <img src="assets/images/team/" alt="Team Image" />
-                </div>
-                <div className="member-info">
-                  <h4 className="title">Carolyne Kikwawi</h4>
-                  <p className="position">CEO</p>
-                  {/* <ul className="social-link">
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-facebook-f" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-twitter" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-linkedin-in" />
-                      </a>
-                    </li>
-                  </ul> */}
-                </div>
-              </div>
-            </div>
+          
             <div className="col-lg-4 col-md-6 col-sm-12">
               {/*====== Single Team Item ======*/}
               <div className="single-team-item mb-30 wow fadeInUp">
@@ -295,7 +260,7 @@ const About = () => {
       {/*====== End Testimonial Section ======*/}
     
       {/*====== Start Gallery Section ======*/}
-      <GallerySection />
+      
     </Layout>
   );
 };
