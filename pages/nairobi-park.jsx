@@ -68,9 +68,12 @@ const DestinationDetails = () => {
                   <i class="fas fa-usd-circle"></i> Price{" "}
                   <span class="currency"> KSH</span> 3800 per person
                 </p>
-                <a href="contact.html" class="btn-link">
-                  Book now<i class="far fa-long-arrow-right"></i>
-                </a>
+                <Link legacyBehavior href="contact">
+                  <a className="main-btn primary-btn">
+                    Book Now
+                    <i className="far fa-paper-plane" />
+                  </a>
+                </Link>
               </p>
               <ul class="features-list mb-40">
                 <li>
