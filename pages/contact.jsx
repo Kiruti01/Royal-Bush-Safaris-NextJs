@@ -1,27 +1,33 @@
-import React from "react";
-import emailjs from "emailjs-com";
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import PageBanner from "@/src/components/PageBanner";
+
 import Layout from "@/src/layout/Layout";
 
 const Contact = () => {
+ 
+  const form = useRef();
+  const [done, setDone] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Replace these with your EmailJS credentials
-    const serviceID = "service_rw71g7a";
-    const templateID = "template_jfn64xl";
-    const userID = "JoTmjglHlNUvbu9nR";
-
-    emailjs.sendForm(serviceID, templateID, e.target, userID).then(
-      (result) => {
-        console.log(result.text);
-      },
-      (error) => {
-        console.log(error.text);
-      }
-    );
-
-    e.target.reset();
+    emailjs
+      .sendForm(
+        "service_sfczkln",
+        "template_m5udu2c",
+        form.current,
+        "VLwg1ltOWvnCYAiK_"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          setDone(true);
+          form.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
     <Layout extraClass={"pt-160"}>
@@ -102,78 +108,30 @@ const Contact = () => {
           <div className="row justify-content-center">
             <div className="col-lg-10">
               <div className="contact-area wow fadeInUp">
-                <form className="contact-form">
-                  <div className="row">
-                    <div className="col-lg-6">
-                      <div className="form_group">
-                        <input
-                          type="text"
-                          placeholder="Name"
-                          className="form_control"
-                          name="name"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="form_group">
-                        <input
-                          type="text"
-                          placeholder="Phone Number"
-                          className="form_control"
-                          name="number"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="form_group">
-                        <input
-                          type="email"
-                          placeholder="Email Address"
-                          className="form_control"
-                          name="email"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-6">
-                      <div className="form_group text-center">
-                        {/* Add a package select field */}
-                        <div className="form_group">
-                          <select className="form_control" name="package">
-                            <option value="Package 1"> Nairobi National Park and Giraffe center</option>
-                            <option value="Package 2">Kereita Ziplining Adventure</option>
-                            <option value="Package 3">Nkasiri Adventure Park</option>
-                            <option value="Package 4">2 Days Masai Mara</option>
-
-                          </select>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form_group">
-                        <textarea
-                          name="message"
-                          placeholder="Write Message"
-                          className="form_control"
-                          rows={6}
-                          defaultValue={""}
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form_group text-center">
-                        <button
-                          className="main-btn primary-btn"
-                          onClick={sendEmail}
-                        >
-                          Send Us Message
-                          <i className="fas fa-paper-plane" />
-                        </button>
-                      </div>
-                    </div>
-                  </div>
+                <form ref={form} onSubmit={sendEmail}>
+                  <input
+                    type="text"
+                    name="user_name"
+                    className="user"
+                    placeholder="Name"
+                  />
+                  <input
+                    type="email"
+                    name="user_email"
+                    className="user"
+                    placeholder="Email"
+                  />
+                  <textarea
+                    name="message"
+                    className="user"
+                    placeholder="Message"
+                  />
+                  <input type="submit" value="Send" className="button" />
+                  <span>{done && "Thanks for Contacting me"}</span>
+                  <div
+                    className="blur c-blur1"
+                    style={{ background: "var(--purple)" }}
+                  ></div>
                 </form>
               </div>
             </div>
@@ -182,7 +140,6 @@ const Contact = () => {
       </section>
 
       {/*====== End Contact Section ======*/}
-     
     </Layout>
   );
 };

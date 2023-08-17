@@ -78,7 +78,7 @@ const Destination = () => {
               <div className="single-place-item-two mb-30 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-10.jpg"
+                    src="https://cdn-cmaef.nitrocdn.com/jRrqUCcBXKJwaLsDAONdssgqlBCcrZDS/assets/images/optimized/rev-1931450/www.naturaltoursandsafaris.com/wp-content/webp-express/webp-images/uploads/2019/08/67899563_1127201957472806_417877908533458110_n.jpg.webp"
                     alt="Place Image"
                   />
                   <span className="tour-count">New</span>
@@ -97,7 +97,7 @@ const Destination = () => {
               <div className="single-place-item-two mb-30 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-11.jpg"
+                    src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgoingplacesafrica.com%2F2019%2F05%2F13%2Fa-flying-fox-at-the-forest%2F&psig=AOvVaw3arIyW-AD-MPhQm0bZhtS8&ust=1692348768041000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLD63Muo44ADFQAAAAAdAAAAABAE"
                     alt="Place Image"
                   />
                   <span className="tour-count">New</span>
@@ -116,7 +116,7 @@ const Destination = () => {
               <div className="single-place-item-two mb-30 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-12.jpg"
+                    src="https://www.micato.com/wp-content/uploads/2019/01/neptune-mara-rianta-luxury-camp-bedroom.jpg"
                     alt="Place Image"
                   />
                   <span className="tour-count">New</span>
@@ -135,7 +135,7 @@ const Destination = () => {
               <div className="single-place-item-two mb-30">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-13.jpg"
+                    src="https://cdn-az.allevents.in/events10/banners/d7cb479ebc93482c6f05abfd42d280fe57e6d4127c2b883fbf3690a44728784d-rimg-w526-h526-gmir.jpg?v=1645039901"
                     alt="Place Image"
                   />
                   <span className="tour-count">New</span>
@@ -154,13 +154,13 @@ const Destination = () => {
               <div className="single-place-item-two mb-30">
                 <div className="place-img">
                   <img
-                    src="assets/images/place/place-14.jpg"
+                    src="https://cdn.getyourguide.com/img/tour/6437f8d0968a9.jpeg/146.jpg"
                     alt="Place Image"
                   />
                   <span className="tour-count">New </span>
                   <div className="place-content">
                     <div className="info text-white">
-                      <h3 className="title mb-10"> Masai Mara wildbeest migration</h3>
+                      <h3 className="title mb-10"> 2 Days Masai Mara</h3>
                       <p className="price">
                         <span className="currency"> ksh </span> 10500/=
                       </p>
