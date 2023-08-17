@@ -10,7 +10,7 @@ const Contact = () => {
     // Replace these with your EmailJS credentials
     const serviceID = "service_rw71g7a";
     const templateID = "template_jfn64xl";
-    const userID = "93T2Yd_Ri_Gaap8Sw4O9U";
+    const userID = "JoTmjglHlNUvbu9nR";
 
     emailjs.sendForm(serviceID, templateID, e.target, userID).then(
       (result) => {
@@ -182,8 +182,7 @@ const Contact = () => {
       </section>
 
       {/*====== End Contact Section ======*/}
-      {/*====== Start Gallery Section ======*/}
-      {/*====== End Gallery Section ======*/}
+     
     </Layout>
   );
 };
