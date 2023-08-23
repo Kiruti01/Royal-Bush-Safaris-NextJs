@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/yesEzenotKivKjOggv3oc/_buildManifest.js",
-    "static/yesEzenotKivKjOggv3oc/_ssgManifest.js"
+    "static/n29PBPfKBOJWKD1NJUji3/_buildManifest.js",
+    "static/n29PBPfKBOJWKD1NJUji3/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -17,7 +17,7 @@
       "static/chunks/313-d66b36bd21cd10d9.js",
       "static/chunks/66-871ec891f68419a1.js",
       "static/chunks/571-95661f2cd52f8658.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/index-69897f3b34a50fc0.js"
     ],
     "/Kereita": [
@@ -26,7 +26,7 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
       "static/chunks/66-871ec891f68419a1.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/Kereita-a4aac27185d9dde8.js"
     ],
     "/Mara": [
@@ -35,7 +35,7 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
       "static/chunks/66-871ec891f68419a1.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/Mara-0da45dbc8be91f94.js"
     ],
     "/Ngare": [
@@ -44,7 +44,7 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
       "static/chunks/66-871ec891f68419a1.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/Ngare-3e4ec4f5cce27e6d.js"
     ],
     "/_app": [
@@ -65,7 +65,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/about-ff43af49af53977e.js"
     ],
     "/contact": [
@@ -73,7 +73,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/contact-6c098304845f1bbb.js"
     ],
     "/destination": [
@@ -81,7 +81,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/destination-9163af2052feaed1.js"
     ],
     "/gallery": [
@@ -89,7 +89,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/gallery-9166281523d038c2.js"
     ],
     "/nairobi-park": [
@@ -98,7 +98,7 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
       "static/chunks/66-871ec891f68419a1.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/nairobi-park-95212d6895235753.js"
     ],
     "/neptune": [
@@ -107,7 +107,7 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
       "static/chunks/66-871ec891f68419a1.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/neptune-0dabdc4b3c326652.js"
     ],
     "/nkasiri": [
@@ -116,7 +116,7 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
       "static/chunks/66-871ec891f68419a1.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/nkasiri-3368406df7d392f9.js"
     ],
     "/prideinn": [
@@ -125,7 +125,7 @@
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
       "static/chunks/66-871ec891f68419a1.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/prideinn-ec8f9de87f519816.js"
     ],
     "/tour": [
@@ -133,7 +133,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/chunks/313-d66b36bd21cd10d9.js",
-      "static/chunks/234-09a368d136eaf995.js",
+      "static/chunks/234-6f8e7dfef746aa2e.js",
       "static/chunks/pages/tour-1759ec61175c6613.js"
     ]
   },

@@ -713,6 +713,24 @@ const MobileMenu = ()=>{
                                         href: "Mara",
                                         children: "2DAYS MAASAI MARA"
                                     })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "prideinn",
+                                        children: "3 DAYS 2 NIGHTS PRIDEINN HOTELS"
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "neptune",
+                                        children: "3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE"
+                                    })
+                                }),
+                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
+                                    children: /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                                        href: "Ngare",
+                                        children: "\uD835\uDC0D\uD835\uDC20\uD835\uDC1A\uD835\uDC2B\uD835\uDC1E \uD835\uDC0D\uD835\uDC1D\uD835\uDC1A\uD835\uDC2B\uD835\uDC1E \uD835\uDC03\uD835\uDC1A\uD835\uDC32 \uD835\uDC13\uD835\uDC2B\uD835\uDC22\uD835\uDC29"
+                                    })
                                 })
                             ]
                         })
