@@ -184,6 +184,23 @@ const Destination = () => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+              <div className="single-place-item-two mb-30">
+                <div className="place-img">
+                  <img
+                    src="https://www.beadsafariscollection.co.ke/wp-content/uploads/2018/04/Ngare_Ndare_Pool_2-960x1149.jpg"
+                    alt="Place Image"
+                  />
+                  <span className="tour-count">New</span>
+                  <div className="place-content">
+                    <div className="info text-white">
+                      <h3 className="title mb-10">Ngare Ndare Day Trip</h3>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
              
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp">

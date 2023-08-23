@@ -306,6 +306,45 @@ const Tour = () => {
                   </div>
                 </div>
               </div>
+              {/*=== Single Place Item ===*/}
+              <div className="single-place-item mb-60 wow fadeInUp">
+                <div className="place-img">
+                  <img
+                    src="https://www.kenyawildlifetours.com/wp-content/uploads/2022/06/Ngare_ndare_forest_reserve.jpg"
+                    alt="Place Image"
+                  />
+                </div>
+                <div className="place-content">
+                  <div className="info">
+                   
+                    <h4 className="title">
+                      <Link legacyBehavior href="/Ngare">
+                        <a>Ngare Ndare Day Trip</a>
+                      </Link>
+                    </h4>
+                    <p className="location">
+                      <i className="far fa-map-marker-alt" />
+                      Mt.Kenya
+                    </p>
+                    <p className="price">
+                      <i className="fas fa-usd-circle" />
+                      Price <span className="currency"> ksh </span> 4500/=
+                    </p>
+                    <div className="meta">
+                     
+                      <span>
+                        <Link legacyBehavior href="/Ngare">
+                          <a>
+                            Book Now
+                            <i className="far fa-long-arrow-right" />
+                          </a>
+                        </Link>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
               {/*=== Single Place Item ===*/}
