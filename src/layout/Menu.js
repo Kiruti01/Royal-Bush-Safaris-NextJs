@@ -125,6 +125,15 @@ const MobileMenu = () => {
               <li>
                 <Link href="Mara">2DAYS MAASAI MARA</Link>
               </li>
+              <li>
+                <Link href="prideinn">3 DAYS 2 NIGHTS PRIDEINN HOTELS</Link>
+              </li>
+              <li>
+                <Link href="neptune">3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE</Link>
+              </li>
+              <li>
+                <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
+              </li>
           </ul>
         </li>
         
