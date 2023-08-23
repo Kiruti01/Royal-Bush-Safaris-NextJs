@@ -134,12 +134,7 @@ const Tour = () => {
                       <i className="fas fa-usd-circle" />
                       Price <span className="currency"> ksh </span>10500/=
                     </p>
-                    <div className="meta">
-                      <span>
-                        <i className="far fa-clock" />
-                        02 Days
-                      </span>
-                      
+                    <div className="meta">                     
                       <span>
                         <Link legacyBehavior href="/Mara">
                           <a>
@@ -258,16 +253,11 @@ const Tour = () => {
                       <i className="fas fa-usd-circle" />
                       Prices from <span className="currency"> ksh </span> 14,100/=
                     </p>
-                    <div className="meta">
+                    <div className="meta">                                          
                       <span>
-                        <i className="far fa-clock" />
-                        03 Days
-                      </span>
-                      
-                      <span>
-                        <Link legacyBehavior href="/tour-details">
+                        <Link legacyBehavior href="/prideinn">
                           <a>
-                            Check out this offer
+                            Book Now
                             <i className="far fa-long-arrow-right" />
                           </a>
                         </Link>
@@ -303,11 +293,7 @@ const Tour = () => {
                       Prices from <span className="currency"> ksh </span> 
                     </p>
                     <div className="meta">
-                      <span>
-                        <i className="far fa-clock" />
-                        03 Days
-                      </span>
-                   
+                      
                       <span>
                         <Link legacyBehavior href="/tour-details">
                           <a>

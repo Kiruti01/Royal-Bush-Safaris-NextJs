@@ -1,4 +1,3 @@
-import GallerySection from "@/src/components/GallerySection";
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
@@ -97,7 +96,7 @@ const Destination = () => {
               <div className="single-place-item-two mb-30 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgoingplacesafrica.com%2F2019%2F05%2F13%2Fa-flying-fox-at-the-forest%2F&psig=AOvVaw3arIyW-AD-MPhQm0bZhtS8&ust=1692348768041000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLD63Muo44ADFQAAAAAdAAAAABAE"
+                    src="https://www.kenyageographic.com/wp-content/uploads/2019/01/kereita-forest-zip-lining-2.jpg"
                     alt="Place Image"
                   />
                   <span className="tour-count">New</span>
@@ -154,7 +153,7 @@ const Destination = () => {
               <div className="single-place-item-two mb-30">
                 <div className="place-img">
                   <img
-                    src="https://cdn.getyourguide.com/img/tour/6437f8d0968a9.jpeg/146.jpg"
+                    src="https://www.exploring-africa.com/sites/default/files/styles/square/public/uploads/article/231/cover/maasaimara-savannah-savanna-kenya-exploringafrica-safari-africa-afrika-afrique-safariadv-zebre.jpg?itok=wnTWdnLK"
                     alt="Place Image"
                   />
                   <span className="tour-count">New </span>
@@ -164,6 +163,23 @@ const Destination = () => {
                       <p className="price">
                         <span className="currency"> ksh </span> 10500/=
                       </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+              <div className="single-place-item-two mb-30">
+                <div className="place-img">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZSpcdh9BK70PkgYHwFmCJ5kfKZztIVEtPnKTlswOtGN2cq87qVpuoSAmwc5yohtj8mvo&usqp=CAU"
+                    alt="Place Image"
+                  />
+                  <span className="tour-count">New</span>
+                  <div className="place-content">
+                    <div className="info text-white">
+                      <h3 className="title mb-10">3 DAYS 2 NIGHTS PRIDEINN HOTELS</h3>
+                    
                     </div>
                   </div>
                 </div>

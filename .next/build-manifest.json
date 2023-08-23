@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/prideinn": [
+    "/tour": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/prideinn.js"
+      "static/chunks/pages/tour.js"
     ]
   },
   "ampFirstPages": []
