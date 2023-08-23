@@ -56,6 +56,9 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="prideinn">3 DAYS 2 NIGHTS PRIDEINN HOTELS</Link>
               </li>
+              <li>
+                <Link href="neptune">3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE</Link>
+              </li>
             </ul>
           </li>
 

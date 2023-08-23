@@ -170,6 +170,12 @@ const Contact = () => {
                             <option value="2 Days Masai Mara">
                               2 Days Masai Mara
                             </option>
+                            <option value="MARA RIANTA FLYING PACKAGE">
+                            MARA RIANTA FLYING PACKAGE
+                            </option>
+                            <option value="2 NIGHTS PRIDEINN HOTELS">
+                            2 NIGHTS PRIDEINN HOTELS
+                            </option>
                           </select>
                         </div>
                       </div>

@@ -122,9 +122,7 @@ const Destination = () => {
                   <div className="place-content">
                     <div className="info text-white">
                       <h3 className="title mb-10">MARA RIANTA FLYING PACKAGE</h3>
-                      <p className="price">
-                        <span className="currency">from Ksh </span> 225.63
-                      </p>
+                      
                     </div>
                   </div>
                 </div>
