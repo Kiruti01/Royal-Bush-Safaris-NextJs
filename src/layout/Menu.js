@@ -59,6 +59,9 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="neptune">3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE</Link>
               </li>
+              <li>
+                <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
+              </li>
             </ul>
           </li>
 
