@@ -1,155 +1,64 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 2413:
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ App)
-});
-
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: ./src/layout/PreLoader.js
-
-const PreLoader = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "preloader",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "loader",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "pre-shadow"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "pre-box"
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const layout_PreLoader = (PreLoader);
-
-// EXTERNAL MODULE: ./styles/globals.css
-var globals = __webpack_require__(6764);
-;// CONCATENATED MODULE: external "next/head"
-const head_namespaceObject = require("next/head");
-var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-// EXTERNAL MODULE: external "react"
-var external_react_ = __webpack_require__(6689);
-;// CONCATENATED MODULE: ./pages/_app.js
-
-
-
-
-
-function App({ Component , pageProps  }) {
-    const [loader, setLoader] = (0,external_react_.useState)(true);
-    (0,external_react_.useEffect)(()=>{
-        setTimeout(()=>{
-            setLoader(false);
-        }, 1500);
-    }, []);
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(external_react_.Fragment, {
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        charSet: "utf-8"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        httpEquiv: "x-ua-compatible",
-                        content: "ie=edge"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "description",
-                        content: "Adventure, Tours, Travel"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
-                        name: "viewport",
-                        content: "width=device-width, initial-scale=1, shrink-to-fit=no"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
-                        children: "Royal Bush Safaris"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "shortcut icon",
-                        href: "assets/images/favicon.ico",
-                        type: "image/png"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        href: "https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap",
-                        rel: "stylesheet"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/fonts/flaticon/flaticon_gowilds.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/fonts/fontawesome/css/all.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/vendor/bootstrap/css/bootstrap.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/vendor/magnific-popup/dist/magnific-popup.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/vendor/slick/slick.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/vendor/jquery-ui/jquery-ui.min.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/vendor/nice-select/css/nice-select.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/vendor/animate.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/default.css"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
-                        rel: "stylesheet",
-                        href: "assets/css/style.css"
-                    })
-                ]
-            }),
-            loader && /*#__PURE__*/ jsx_runtime_.jsx(layout_PreLoader, {}),
-            !loader && /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                ...pageProps
-            })
-        ]
-    });
-}
-
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ App)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _src_layout_PreLoader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/src/layout/PreLoader */ \"./src/layout/PreLoader.js\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nfunction App({ Component , pageProps  }) {\n    const [loader, setLoader] = (0,react__WEBPACK_IMPORTED_MODULE_4__.useState)(true);\n    (0,react__WEBPACK_IMPORTED_MODULE_4__.useEffect)(()=>{\n        setTimeout(()=>{\n            setLoader(false);\n        }, 1500);\n    }, []);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react__WEBPACK_IMPORTED_MODULE_4__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_3___default()), {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        charSet: \"utf-8\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 18,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        httpEquiv: \"x-ua-compatible\",\n                        content: \"ie=edge\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 19,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"description\",\n                        content: \"Adventure, Tours, Travel\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 20,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                        name: \"viewport\",\n                        content: \"width=device-width, initial-scale=1, shrink-to-fit=no\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 21,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                        children: \"Royal Bush Safaris\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 26,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"shortcut icon\",\n                        href: \"assets/images/favicon.ico\",\n                        type: \"image/png\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 28,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        href: \"https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&display=swap\",\n                        rel: \"stylesheet\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 34,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/fonts/flaticon/flaticon_gowilds.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 39,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/fonts/fontawesome/css/all.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 44,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/bootstrap/css/bootstrap.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 49,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/magnific-popup/dist/magnific-popup.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 54,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/slick/slick.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 59,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/jquery-ui/jquery-ui.min.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 61,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/nice-select/css/nice-select.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 66,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/vendor/animate.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 71,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/default.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 73,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                        rel: \"stylesheet\",\n                        href: \"assets/css/style.css\"\n                    }, void 0, false, {\n                        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                        lineNumber: 75,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, this),\n            loader && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_src_layout_PreLoader__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {}, void 0, false, {\n                fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                lineNumber: 77,\n                columnNumber: 18\n            }, this),\n            !loader && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                ...pageProps\n            }, void 0, false, {\n                fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n                lineNumber: 78,\n                columnNumber: 19\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/pages/_app.js\",\n        lineNumber: 15,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7O0FBQStDO0FBQ2pCO0FBQ0Q7QUFDeUI7QUFFdkMsU0FBU0ssSUFBSSxFQUFFQyxVQUFTLEVBQUVDLFVBQVMsRUFBRSxFQUFFO0lBQ3BELE1BQU0sQ0FBQ0MsUUFBUUMsVUFBVSxHQUFHTCwrQ0FBUUEsQ0FBQyxJQUFJO0lBQ3pDRCxnREFBU0EsQ0FBQyxJQUFNO1FBQ2RPLFdBQVcsSUFBTTtZQUNmRCxVQUFVLEtBQUs7UUFDakIsR0FBRztJQUNMLEdBQUcsRUFBRTtJQUVMLHFCQUNFLDhEQUFDUCwyQ0FBUUE7OzBCQUNQLDhEQUFDRCxrREFBSUE7O2tDQUVILDhEQUFDVTt3QkFBS0MsU0FBUTs7Ozs7O2tDQUNkLDhEQUFDRDt3QkFBS0UsV0FBVTt3QkFBa0JDLFNBQVE7Ozs7OztrQ0FDMUMsOERBQUNIO3dCQUFLSSxNQUFLO3dCQUFjRCxTQUFROzs7Ozs7a0NBQ2pDLDhEQUFDSDt3QkFDQ0ksTUFBSzt3QkFDTEQsU0FBUTs7Ozs7O2tDQUdWLDhEQUFDRTtrQ0FBTTs7Ozs7O2tDQUVQLDhEQUFDQzt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzt3QkFDTEMsTUFBSzs7Ozs7O2tDQUdQLDhEQUFDSDt3QkFDQ0UsTUFBSzt3QkFDTEQsS0FBSTs7Ozs7O2tDQUdOLDhEQUFDRDt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzs7Ozs7O2tDQUdQLDhEQUFDRjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzs7Ozs7O2tDQUdQLDhEQUFDRjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzs7Ozs7O2tDQUdQLDhEQUFDRjt3QkFDQ0MsS0FBSTt3QkFDSkMsTUFBSzs7Ozs7O2tDQUdQLDhEQUFDRjt3QkFBS0MsS0FBSTt3QkFBYUMsTUFBSzs7Ozs7O2tDQUU1Qiw4REFBQ0Y7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7Ozs7OztrQ0FHUCw4REFBQ0Y7d0JBQ0NDLEtBQUk7d0JBQ0pDLE1BQUs7Ozs7OztrQ0FHUCw4REFBQ0Y7d0JBQUtDLEtBQUk7d0JBQWFDLE1BQUs7Ozs7OztrQ0FFNUIsOERBQUNGO3dCQUFLQyxLQUFJO3dCQUFhQyxNQUFLOzs7Ozs7a0NBRTVCLDhEQUFDRjt3QkFBS0MsS0FBSTt3QkFBYUMsTUFBSzs7Ozs7Ozs7Ozs7O1lBRTdCWCx3QkFBVSw4REFBQ1IsNkRBQVNBOzs7OztZQUNwQixDQUFDUSx3QkFBVSw4REFBQ0Y7Z0JBQVcsR0FBR0MsU0FBUzs7Ozs7Ozs7Ozs7O0FBRzFDLENBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb3lhbGJ1c2gvLi9wYWdlcy9fYXBwLmpzP2UwYWQiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFByZUxvYWRlciBmcm9tIFwiQC9zcmMvbGF5b3V0L1ByZUxvYWRlclwiO1xyXG5pbXBvcnQgXCJAL3N0eWxlcy9nbG9iYWxzLmNzc1wiO1xyXG5pbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XHJcbmltcG9ydCB7IEZyYWdtZW50LCB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSBcInJlYWN0XCI7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XHJcbiAgY29uc3QgW2xvYWRlciwgc2V0TG9hZGVyXSA9IHVzZVN0YXRlKHRydWUpO1xyXG4gIHVzZUVmZmVjdCgoKSA9PiB7XHJcbiAgICBzZXRUaW1lb3V0KCgpID0+IHtcclxuICAgICAgc2V0TG9hZGVyKGZhbHNlKTtcclxuICAgIH0sIDE1MDApO1xyXG4gIH0sIFtdKTtcclxuXHJcbiAgcmV0dXJuIChcclxuICAgIDxGcmFnbWVudD5cclxuICAgICAgPEhlYWQ+XHJcbiAgICAgICAgey8qPT09PT09IFJlcXVpcmVkIG1ldGEgdGFncyA9PT09PT0qL31cclxuICAgICAgICA8bWV0YSBjaGFyU2V0PVwidXRmLThcIiAvPlxyXG4gICAgICAgIDxtZXRhIGh0dHBFcXVpdj1cIngtdWEtY29tcGF0aWJsZVwiIGNvbnRlbnQ9XCJpZT1lZGdlXCIgLz5cclxuICAgICAgICA8bWV0YSBuYW1lPVwiZGVzY3JpcHRpb25cIiBjb250ZW50PVwiQWR2ZW50dXJlLCBUb3VycywgVHJhdmVsXCIgLz5cclxuICAgICAgICA8bWV0YVxyXG4gICAgICAgICAgbmFtZT1cInZpZXdwb3J0XCJcclxuICAgICAgICAgIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MSwgc2hyaW5rLXRvLWZpdD1ub1wiXHJcbiAgICAgICAgLz5cclxuICAgICAgICB7Lyo9PT09PT0gVGl0bGUgPT09PT09Ki99XHJcbiAgICAgICAgPHRpdGxlPlJveWFsIEJ1c2ggU2FmYXJpczwvdGl0bGU+XHJcbiAgICAgICAgey8qPT09PT09IEZhdmljb24gSWNvbiA9PT09PT0qL31cclxuICAgICAgICA8bGlua1xyXG4gICAgICAgICAgcmVsPVwic2hvcnRjdXQgaWNvblwiXHJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL2ltYWdlcy9mYXZpY29uLmljb1wiXHJcbiAgICAgICAgICB0eXBlPVwiaW1hZ2UvcG5nXCJcclxuICAgICAgICAvPlxyXG4gICAgICAgIHsvKj09PT09PSBHb29nbGUgRm9udHMgPT09PT09Ki99XHJcbiAgICAgICAgPGxpbmtcclxuICAgICAgICAgIGhyZWY9XCJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2NzczI/ZmFtaWx5PVByb21wdDp3Z2h0QDMwMDs0MDA7NTAwOzYwMDs3MDA7ODAwJmRpc3BsYXk9c3dhcFwiXHJcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAvPlxyXG4gICAgICAgIHsvKj09PT09PSBGbGF0aWNvbiBjc3MgPT09PT09Ki99XHJcbiAgICAgICAgPGxpbmtcclxuICAgICAgICAgIHJlbD1cInN0eWxlc2hlZXRcIlxyXG4gICAgICAgICAgaHJlZj1cImFzc2V0cy9mb250cy9mbGF0aWNvbi9mbGF0aWNvbl9nb3dpbGRzLmNzc1wiXHJcbiAgICAgICAgLz5cclxuICAgICAgICB7Lyo9PT09PT0gRm9udEF3ZXNvbWUgY3NzID09PT09PSovfVxyXG4gICAgICAgIDxsaW5rXHJcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvZm9udHMvZm9udGF3ZXNvbWUvY3NzL2FsbC5taW4uY3NzXCJcclxuICAgICAgICAvPlxyXG4gICAgICAgIHsvKj09PT09PSBCb290c3RyYXAgY3NzID09PT09PSovfVxyXG4gICAgICAgIDxsaW5rXHJcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvdmVuZG9yL2Jvb3RzdHJhcC9jc3MvYm9vdHN0cmFwLm1pbi5jc3NcIlxyXG4gICAgICAgIC8+XHJcbiAgICAgICAgey8qPT09PT09IG1hZ25pZmljLXBvcHVwIGNzcyA9PT09PT0qL31cclxuICAgICAgICA8bGlua1xyXG4gICAgICAgICAgcmVsPVwic3R5bGVzaGVldFwiXHJcbiAgICAgICAgICBocmVmPVwiYXNzZXRzL3ZlbmRvci9tYWduaWZpYy1wb3B1cC9kaXN0L21hZ25pZmljLXBvcHVwLmNzc1wiXHJcbiAgICAgICAgLz5cclxuICAgICAgICB7Lyo9PT09PT0gU2xpY2stcG9wdXAgY3NzID09PT09PSovfVxyXG4gICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiYXNzZXRzL3ZlbmRvci9zbGljay9zbGljay5jc3NcIiAvPlxyXG4gICAgICAgIHsvKj09PT09PSBKcXVlcnkgVUkgY3NzID09PT09PSovfVxyXG4gICAgICAgIDxsaW5rXHJcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvdmVuZG9yL2pxdWVyeS11aS9qcXVlcnktdWkubWluLmNzc1wiXHJcbiAgICAgICAgLz5cclxuICAgICAgICB7Lyo9PT09PT0gTmljZSBTZWxlY3QgY3NzID09PT09PSovfVxyXG4gICAgICAgIDxsaW5rXHJcbiAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAgIGhyZWY9XCJhc3NldHMvdmVuZG9yL25pY2Utc2VsZWN0L2Nzcy9uaWNlLXNlbGVjdC5jc3NcIlxyXG4gICAgICAgIC8+XHJcbiAgICAgICAgey8qPT09PT09IEFuaW1hdGUgY3NzID09PT09PSovfVxyXG4gICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiYXNzZXRzL3ZlbmRvci9hbmltYXRlLmNzc1wiIC8+XHJcbiAgICAgICAgey8qPT09PT09IERlZmF1bHQgY3NzID09PT09PSovfVxyXG4gICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiYXNzZXRzL2Nzcy9kZWZhdWx0LmNzc1wiIC8+XHJcbiAgICAgICAgey8qPT09PT09IFN0eWxlIGNzcyA9PT09PT0qL31cclxuICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImFzc2V0cy9jc3Mvc3R5bGUuY3NzXCIgLz5cclxuICAgICAgPC9IZWFkPlxyXG4gICAgICB7bG9hZGVyICYmIDxQcmVMb2FkZXIgLz59XHJcbiAgICAgIHshbG9hZGVyICYmIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz59XHJcbiAgICA8L0ZyYWdtZW50PlxyXG4gICk7XHJcbn1cclxuIl0sIm5hbWVzIjpbIlByZUxvYWRlciIsIkhlYWQiLCJGcmFnbWVudCIsInVzZUVmZmVjdCIsInVzZVN0YXRlIiwiQXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIiwibG9hZGVyIiwic2V0TG9hZGVyIiwic2V0VGltZW91dCIsIm1ldGEiLCJjaGFyU2V0IiwiaHR0cEVxdWl2IiwiY29udGVudCIsIm5hbWUiLCJ0aXRsZSIsImxpbmsiLCJyZWwiLCJocmVmIiwidHlwZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
 
 /***/ }),
 
-/***/ 6764:
+/***/ "./src/layout/PreLoader.js":
+/*!*********************************!*\
+  !*** ./src/layout/PreLoader.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst PreLoader = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"preloader\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"loader\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"pre-shadow\"\n                }, void 0, false, {\n                    fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/src/layout/PreLoader.js\",\n                    lineNumber: 5,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"pre-box\"\n                }, void 0, false, {\n                    fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/src/layout/PreLoader.js\",\n                    lineNumber: 6,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/src/layout/PreLoader.js\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/home/kimz/My-work/Royal-Bush-Safaris-NextJs/src/layout/PreLoader.js\",\n        lineNumber: 3,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PreLoader);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvbGF5b3V0L1ByZUxvYWRlci5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQUEsTUFBTUEsWUFBWSxJQUFNO0lBQ3RCLHFCQUNFLDhEQUFDQztRQUFJQyxXQUFVO2tCQUNiLDRFQUFDRDtZQUFJQyxXQUFVOzs4QkFDYiw4REFBQ0Q7b0JBQUlDLFdBQVU7Ozs7Ozs4QkFDZiw4REFBQ0Q7b0JBQUlDLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBSXZCO0FBQ0EsaUVBQWVGLFNBQVNBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9yb3lhbGJ1c2gvLi9zcmMvbGF5b3V0L1ByZUxvYWRlci5qcz8zNjg1Il0sInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFByZUxvYWRlciA9ICgpID0+IHtcclxuICByZXR1cm4gKFxyXG4gICAgPGRpdiBjbGFzc05hbWU9XCJwcmVsb2FkZXJcIj5cclxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJsb2FkZXJcIj5cclxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByZS1zaGFkb3dcIiAvPlxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicHJlLWJveFwiIC8+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPC9kaXY+XHJcbiAgKTtcclxufTtcclxuZXhwb3J0IGRlZmF1bHQgUHJlTG9hZGVyO1xyXG4iXSwibmFtZXMiOlsiUHJlTG9hZGVyIiwiZGl2IiwiY2xhc3NOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/layout/PreLoader.js\n");
+
+/***/ }),
+
+/***/ "./styles/globals.css":
+/*!****************************!*\
+  !*** ./styles/globals.css ***!
+  \****************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 6689:
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/head");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 "use strict";
@@ -157,11 +66,14 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -172,7 +84,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(2413));
+var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
 module.exports = __webpack_exports__;
 
 })();

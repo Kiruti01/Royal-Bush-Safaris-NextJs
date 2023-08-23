@@ -1,17 +1,6 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
-  "/Mara": "pages/Mara.html",
-  "/Kereita": "pages/Kereita.html",
-  "/contact": "pages/contact.html",
-  "/api/hello": "pages/api/hello.js",
-  "/gallery": "pages/gallery.html",
-  "/destination": "pages/destination.html",
-  "/": "pages/index.html",
-  "/nkasiri": "pages/nkasiri.html",
-  "/nairobi-park": "pages/nairobi-park.html",
-  "/about": "pages/about.html",
   "/_error": "pages/_error.js",
-  "/tour": "pages/tour.html",
-  "/404": "pages/404.html"
+  "/_document": "pages/_document.js",
+  "/prideinn": "pages/prideinn.js"
 }
