@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/n29PBPfKBOJWKD1NJUji3/_buildManifest.js",
-    "static/n29PBPfKBOJWKD1NJUji3/_ssgManifest.js"
+    "static/IlmZPFxnoGbKHtDbSwVue/_buildManifest.js",
+    "static/IlmZPFxnoGbKHtDbSwVue/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -18,7 +18,7 @@
       "static/chunks/66-871ec891f68419a1.js",
       "static/chunks/571-95661f2cd52f8658.js",
       "static/chunks/234-6f8e7dfef746aa2e.js",
-      "static/chunks/pages/index-69897f3b34a50fc0.js"
+      "static/chunks/pages/index-93a68a7491dc2fdb.js"
     ],
     "/Kereita": [
       "static/chunks/webpack-4af8e779254014af.js",
@@ -52,7 +52,7 @@
       "static/chunks/framework-2c79e2a64abdb08b.js",
       "static/chunks/main-0c597b21730512df.js",
       "static/css/2f49cef1cf3caa65.css",
-      "static/chunks/pages/_app-d9919987d505fd07.js"
+      "static/chunks/pages/_app-2fe625d3c1eda528.js"
     ],
     "/_error": [
       "static/chunks/webpack-4af8e779254014af.js",

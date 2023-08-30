@@ -70,8 +70,16 @@ function App({ Component , pageProps  }) {
                         content: "ie=edge"
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "title",
+                        content: "Royal Bush Safaris"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "description",
-                        content: "Adventure, Tours, Travel"
+                        content: "Tours & Travel"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "keywords",
+                        content: "Royal Bush Safaris, Tours & Travel "
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "viewport",

@@ -34,7 +34,7 @@ const Index3 = () => {
                 <p className="mb-30">
                we have diffrent varieties of activites and places you can visit to make those perfect memories!
                 </p>
-                <a href="/about" className="main-btn filled-btn">
+                <a href="./about" className="main-btn filled-btn">
                   Learn More
                   <i className="far fa-paper-plane" />
                 </a>
