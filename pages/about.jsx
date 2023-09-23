@@ -1,10 +1,19 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import Head from "next/head"
 
 const About = () => {
   return (
     <Layout extraClass={"pt-160"}>
+      <Head>
+        {" "}
+        <meta
+          name="description"
+          content="Our Mission is to perform and deliver excellent quality service to our clients. Creating for them unforgettable travel memories, with guaranteed services that exceed their expectations. We provide an extraordinary service which is saving your time and money while providing the best value for your trip"
+        />
+        <meta name="keywords" content="Royal Bush Safaris, Who We Are, Ready to Travel With Real Adventure and Enjoy Natural " />
+      </Head>{" "}
       <PageBanner pageTitle={"About Us"} />
       {/*====== Start Features Section ======*/}
      

@@ -1,9 +1,9 @@
 const PreLoader = () => {
+
   return (
     <div className="preloader">
       <div className="loader">
-        <div className="pre-shadow" />
-        <div className="pre-box" />
+        <img src="/assets/images/logo/logo-white.png" alt="Your Logo"  />
       </div>
     </div>
   );

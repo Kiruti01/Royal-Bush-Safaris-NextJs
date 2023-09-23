@@ -8,7 +8,8 @@ import {
 import dynamic from "next/dynamic";
 import Link from "next/link";
 import Slider from "react-slick";
-import ReactPlayer from 'react-player/youtube';
+import ReactPlayer from "react-player/youtube";
+import Head from "next/head";
 
 const Counter = dynamic(() => import("@/src/components/Counter"), {
   ssr: false,
@@ -17,6 +18,14 @@ const Index3 = () => {
   return (
     <Layout header={3} footerBG={"gray"}>
       {/*====== Start Hero Section ======*/}
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>Royal Bush Sa</title>
+        <script
+          key="structured-1"
+          type="application/ld+json"
+        />
+      </Head>
       <Home3Slider />
       {/*====== End Hero Section ======*/}
       {/*====== Start Features Section ======*/}
@@ -32,7 +41,8 @@ const Index3 = () => {
                   <h2>Explore with us</h2>
                 </div>
                 <p className="mb-30">
-               we have diffrent varieties of activites and places you can visit to make those perfect memories!
+                  we have diffrent varieties of activites and places you can
+                  visit to make those perfect memories!
                 </p>
                 <a href="./about" className="main-btn filled-btn">
                   Learn More
@@ -95,7 +105,9 @@ const Index3 = () => {
                         <i className="flaticon-caravan" />
                       </div>
                       <div className="text">
-                        <h3 className="title">Bush Safaris &amp;  Game Drives</h3>
+                        <h3 className="title">
+                          Bush Safaris &amp; Game Drives
+                        </h3>
                         {/* <p>
                           Sit amet consectetur integ tincidunt scelerie nodermen
                           malesuada sceleris massa
@@ -136,7 +148,8 @@ const Index3 = () => {
                   <h2>We’re the Number 1 Tours and Travel Company in Kenya</h2>
                 </div>
                 <p className="mb-30">
-                Book your long awaited Get-Away trip with us for an unforgettable Experience
+                  Book your long awaited Get-Away trip with us for an
+                  unforgettable Experience
                 </p>
               </div>
             </div>
@@ -149,16 +162,16 @@ const Index3 = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7"> */}
-              {/*=== Section Title ===*/}
-              {/* <div className="section-title text-center mb-50">
+      {/*=== Section Title ===*/}
+      {/* <div className="section-title text-center mb-50">
                 <span className="sub-title">Popular Services</span>
                 <h2>Amazing Adventure Camping Services for Enjoyed</h2>
               </div>
             </div>
           </div>
           <Slider {...sliderActive3Item} className="slider-active-3-item"> */}
-            {/*=== Service Item ===*/}
-            {/* <div className="single-service-item-three mb-40">
+      {/*=== Service Item ===*/}
+      {/* <div className="single-service-item-three mb-40">
               <div className="content">
                 <h3 className="title">
                   <a href="#">Classic Tents</a>
@@ -195,8 +208,8 @@ const Index3 = () => {
                 </div>
               </div>
             </div> */}
-            {/*=== Service Item ===*/}
-            {/* <div className="single-service-item-three mb-40">
+      {/*=== Service Item ===*/}
+      {/* <div className="single-service-item-three mb-40">
               <div className="content">
                 <h3 className="title">
                   <a href="#">Caravan Solar Tent</a>
@@ -233,8 +246,8 @@ const Index3 = () => {
                 </div>
               </div>
             </div> */}
-            {/*=== Service Item ===*/}
-            {/* <div className="single-service-item-three mb-40">
+      {/*=== Service Item ===*/}
+      {/* <div className="single-service-item-three mb-40">
               <div className="content">
                 <h3 className="title">
                   <Link legacyBehavior href="/tour-details">
@@ -279,44 +292,42 @@ const Index3 = () => {
       {/*====== End Service Section ======*/}
       {/*====== Start CTA Section ======*/}
       <section
-      className="cta-bg overlay bg_cover pt-150 pb-150"
-      style={{ backgroundImage: "url(assets/images/bg/cta-bg2.jpg)" }}
-    >
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-xl-7 col-lg-8">
-            {/*=== CTA Content Box ===*/}
-            <div className="cta-content-box text-white">
-              <h2 className="mb-35">
-                Ready to Travel With Real Adventure and Enjoy Natural
-              </h2>
-              <Link legacyBehavior href="/about">
-                <a className="main-btn secondary-btn">
-                  Check Availability
-                  <i className="far fa-paper-plane" />
-                </a>
-              </Link>
+        className="cta-bg overlay bg_cover pt-150 pb-150"
+        style={{ backgroundImage: "url(assets/images/bg/cta-bg2.jpg)" }}
+      >
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-xl-7 col-lg-8">
+              {/*=== CTA Content Box ===*/}
+              <div className="cta-content-box text-white">
+                <h2 className="mb-35">
+                  Ready to Travel With Real Adventure and Enjoy Natural
+                </h2>
+                <Link legacyBehavior href="/about">
+                  <a className="main-btn secondary-btn">
+                    Check Availability
+                    <i className="far fa-paper-plane" />
+                  </a>
+                </Link>
+              </div>
             </div>
-          </div>
-          <div className="col-xl-5 col-lg-4">
-            {/*=== Play Box with Background Video ===*/}
-            <div className="play-box text-center">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=CP5k2gRabvc"
-                playing
-                loop
-                muted
-                width="100%"
-                height="100%"
-                style={{ position: 'absolute', top: 0, left: 0 }}
-              />
-            
-              
+            <div className="col-xl-5 col-lg-4">
+              {/*=== Play Box with Background Video ===*/}
+              <div className="play-box text-center">
+                <ReactPlayer
+                  url="https://www.youtube.com/watch?v=CP5k2gRabvc"
+                  playing
+                  loop
+                  muted
+                  width="100%"
+                  height="100%"
+                  style={{ position: "absolute", top: 0, left: 0 }}
+                />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
       {/*====== End CTA Section ======*/}
       {/*====== Start What We Section ======*/}
       <section className="we-section pt-100 pb-50">

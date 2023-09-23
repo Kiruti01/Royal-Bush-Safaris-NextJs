@@ -1,7 +1,27 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import { useEffect, useState } from "react";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
+import axios from "axios";
+
 const Tour = () => {
+  const [accommodations, setAccommodations] = useState([]);
+  const [checkInDate, setCheckInDate] = useState(null);
+const [checkOutDate, setCheckOutDate] = useState(null);
+
+
+  useEffect(() => {
+    axios
+      .get("YOUR_API_URL_HERE")
+      .then((response) => {
+        setAccommodations(response.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching accommodations:", error);
+      });
+  }, []);
   return (
     <Layout extraClass={"pt-160"}>
       <PageBanner pageTitle={"Explore with us"} />
@@ -15,10 +35,11 @@ const Tour = () => {
                 <label>
                   <i className="far fa-calendar-alt" />
                 </label>
-                <input
-                  type="text"
+                <DatePicker
+                  selected={checkInDate}
+                  onChange={(date) => setCheckInDate(date)}
                   className="form_control datepicker"
-                  placeholder="Check In"
+                  placeholderText="Check In"
                 />
               </div>
               <div className="form_group">
@@ -26,10 +47,11 @@ const Tour = () => {
                 <label>
                   <i className="far fa-calendar-alt" />
                 </label>
-                <input
-                  type="text"
+                <DatePicker
+                  selected={checkOutDate}
+                  onChange={(date) => setCheckOutDate(date)}
                   className="form_control datepicker"
-                  placeholder="Check Out"
+                  placeholderText="Check Out"
                 />
               </div>
               <div className="form_group">
@@ -44,18 +66,15 @@ const Tour = () => {
                   name="text"
                 />
               </div>
-              <div className="form_group">
-                <span>Accommodations</span>
-                <select className="wide">
-                  <option data-display="Accommodations">Accommodations</option>
-                  <option value={1}>Classic Tent</option>
-                  <option value={1}>Forest Camping</option>
-                  <option value={1}>Small Trailer</option>
-                  <option value={1}>Tree House Tent</option>
-                  <option value={1}>Tent Camping</option>
-                  <option value={1}>Couple Tent</option>
-                </select>
-              </div>
+              <select className="wide">
+                <option data-display="Accommodations">Accommodations</option>
+                {accommodations.map((accommodation, index) => (
+                  <option key={index} value={accommodation.id}>
+                    {accommodation.name}
+                  </option>
+                ))}
+              </select>
+
               <div className="form_group">
                 <button className="booking-btn">
                   Check Availability <i className="far fa-angle-double-right" />
@@ -81,7 +100,6 @@ const Tour = () => {
                 </div>
                 <div className="place-content">
                   <div className="info">
-    
                     <h4 className="title">
                       <Link legacyBehavior href="/Kereita">
                         <a>Kereita Ziplining Adventure</a>
@@ -120,7 +138,6 @@ const Tour = () => {
                 </div>
                 <div className="place-content">
                   <div className="info">
-                    
                     <h4 className="title">
                       <Link legacyBehavior href="/Mara">
                         <a>2 days Masai Mara </a>
@@ -134,7 +151,7 @@ const Tour = () => {
                       <i className="fas fa-usd-circle" />
                       Price <span className="currency"> ksh </span>10500/=
                     </p>
-                    <div className="meta">                     
+                    <div className="meta">
                       <span>
                         <Link legacyBehavior href="/Mara">
                           <a>
@@ -159,7 +176,6 @@ const Tour = () => {
                 </div>
                 <div className="place-content">
                   <div className="info">
-                    
                     <h4 className="title">
                       <Link legacyBehavior href="/nairobi-park">
                         <a>Nairobi National Park & Giraffe center</a>
@@ -174,7 +190,6 @@ const Tour = () => {
                       Price <span className="currency"> ksh </span> 3800/=
                     </p>
                     <div className="meta">
-                     
                       <span>
                         <Link legacyBehavior href="/nairobi-park">
                           <a>
@@ -199,7 +214,6 @@ const Tour = () => {
                 </div>
                 <div className="place-content">
                   <div className="info">
-                   
                     <h4 className="title">
                       <Link legacyBehavior href="/nkasiri">
                         <a>Nkasiri Adventure Park</a>
@@ -214,7 +228,6 @@ const Tour = () => {
                       Price <span className="currency"> ksh </span> 4700/=
                     </p>
                     <div className="meta">
-                     
                       <span>
                         <Link legacyBehavior href="/nkasiri">
                           <a>
@@ -239,7 +252,6 @@ const Tour = () => {
                 </div>
                 <div className="place-content">
                   <div className="info">
-                    
                     <h4 className="title">
                       <Link legacyBehavior href="/tour-details">
                         <a>3 DAYS 2 NIGHTS PRIDEINN HOTELS EDITION</a>
@@ -251,9 +263,10 @@ const Tour = () => {
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Prices from <span className="currency"> ksh </span> 14,100/=
+                      Prices from <span className="currency"> ksh </span>{" "}
+                      14,100/=
                     </p>
-                    <div className="meta">                                          
+                    <div className="meta">
                       <span>
                         <Link legacyBehavior href="/prideinn">
                           <a>
@@ -278,10 +291,9 @@ const Tour = () => {
                 </div>
                 <div className="place-content">
                   <div className="info">
-                    
                     <h4 className="title">
                       <Link legacyBehavior href="/tour-details">
-                      3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE
+                        3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE
                       </Link>
                     </h4>
                     <p className="location">
@@ -290,10 +302,9 @@ const Tour = () => {
                     </p>
                     <p className="price">
                       <i className="fas fa-usd-circle" />
-                      Prices from <span className="currency"> ksh </span> 
+                      Prices from <span className="currency"> ksh </span>
                     </p>
                     <div className="meta">
-                      
                       <span>
                         <Link legacyBehavior href="/tour-details">
                           <a>
@@ -316,7 +327,6 @@ const Tour = () => {
                 </div>
                 <div className="place-content">
                   <div className="info">
-                   
                     <h4 className="title">
                       <Link legacyBehavior href="/Ngare">
                         <a>Ngare Ndare Day Trip</a>
@@ -331,7 +341,6 @@ const Tour = () => {
                       Price <span className="currency"> ksh </span> 4500/=
                     </p>
                     <div className="meta">
-                     
                       <span>
                         <Link legacyBehavior href="/Ngare">
                           <a>
@@ -344,7 +353,6 @@ const Tour = () => {
                   </div>
                 </div>
               </div>
-              
             </div>
             <div className="col-xl-4 col-md-6 col-sm-12 places-column">
               {/*=== Single Place Item ===*/}
@@ -561,7 +569,7 @@ const Tour = () => {
       </section>
       {/*====== End Places Section ======*/}
       {/*====== Start Gallery Section ======*/}
-      
+
       {/*====== End Gallery Section ======*/}
     </Layout>
   );

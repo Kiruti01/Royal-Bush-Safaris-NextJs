@@ -670,10 +670,11 @@ button {
   position: relative;
   text-align: center;
 }
-.preloader .pre-box {
+.preloader .pre-logo {
   width: 50px;
   height: 50px;
   background: #63AB45;
+  background-image: "../../../public/assets/images/logo/logo-white.png";
   -webkit-animation: loaderAnimate 0.5s linear infinite;
           animation: loaderAnimate 0.5s linear infinite;
   position: absolute;
