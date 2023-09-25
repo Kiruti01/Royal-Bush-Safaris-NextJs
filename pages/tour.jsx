@@ -13,9 +13,9 @@ const Tour = () => {
   const [checkInDate, setCheckInDate] = useState(null);
   const [checkOutDate, setCheckOutDate] = useState(null);
   const accommodations = [
-    { id: 1, name: 'Hotel A' },
-    { id: 2, name: 'Hotel B' },
-    { id: 3, name: 'Hotel C' },
+    { id: 1, name: 'Emara ole Sereni (Coming soon)' },
+    { id: 2, name: 'Sarova stanely (Coming soon)' },
+    { id: 3, name: 'Panari Hotel (Coming soon)' },
     // Add more hotels as needed
   ];
   const handleSubmit = (e) => {
