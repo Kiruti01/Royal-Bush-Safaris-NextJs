@@ -1,22 +1,25 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
-import Head from "next/head"
+import Head from "next/head";
 
 const About = () => {
   return (
     <Layout extraClass={"pt-160"}>
       <Head>
-        {" "}
+        <title>About Us - Royal Bush Safaris</title>
         <meta
           name="description"
-          content="Our Mission is to perform and deliver excellent quality service to our clients. Creating for them unforgettable travel memories, with guaranteed services that exceed their expectations. We provide an extraordinary service which is saving your time and money while providing the best value for your trip"
+          content="Learn about Royal Bush Safaris, a Tours and Travel Company committed to delivering excellent quality service and creating unforgettable travel memories."
         />
-        <meta name="keywords" content="Royal Bush Safaris, Who We Are, Ready to Travel With Real Adventure and Enjoy Natural " />
-      </Head>{" "}
+        <meta
+          name="keywords"
+          content="Royal Bush Safaris, Who We Are, Travel Adventure, Quality Service"
+        />
+      </Head>
       <PageBanner pageTitle={"About Us"} />
       {/*====== Start Features Section ======*/}
-     
+
       {/*====== Start We Section ======*/}
       <section className="who-we-section">
         <div className="container">
@@ -39,7 +42,12 @@ const About = () => {
                   <h2>Royal Bush Safaris</h2>
                 </div>
                 <p className="wow fadeInDown">
-                Our Mission is to perform and deliver excellent quality service to our clients. Creating for them unforgettable travel memories, with guaranteed services that exceed their expectations. We provide an extraordinary service which is saving your time and money while providing the best value for your trip
+                  Our Mission is to perform and deliver excellent quality
+                  service to our clients. Creating for them unforgettable travel
+                  memories, with guaranteed services that exceed their
+                  expectations. We provide an extraordinary service which is
+                  saving your time and money while providing the best value for
+                  your trip
                 </p>
                 <div className="skill-wrapper wow fadeInUp">
                   <div className="single-skill-circle text-center">
@@ -80,7 +88,10 @@ const About = () => {
               {/*====== Single Team Item ======*/}
               <div className="single-team-item mb-30 wow fadeInUp">
                 <div className="member-img">
-                  <img src="https://pps.whatsapp.net/v/t61.24694-24/366754427_1040240457014728_8994561456857686225_n.jpg?ccb=11-4&oh=01_AdSD5KWFyB2FVUAbOKn6tLbRj8c_RIdZ2FvNcy7N4e2Cpg&oe=64EA448D" alt="Team Image" />
+                  <img
+                    src="https://pps.whatsapp.net/v/t61.24694-24/366754427_1040240457014728_8994561456857686225_n.jpg?ccb=11-4&oh=01_AdSD5KWFyB2FVUAbOKn6tLbRj8c_RIdZ2FvNcy7N4e2Cpg&oe=64EA448D"
+                    alt="Harold Lehns - Director & Founder"
+                  />
                 </div>
                 <div className="member-info">
                   <h4 className="title">Harold Lehns</h4>
@@ -110,7 +121,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          
+
             <div className="col-lg-4 col-md-6 col-sm-12">
               {/*====== Single Team Item ======*/}
               <div className="single-team-item mb-30 wow fadeInUp">
@@ -145,8 +156,8 @@ const About = () => {
                 </div>
               </div>
             </div>
-            </div>
-         </div>
+          </div>
+        </div>
       </section>
       {/*====== End Team Section ======*/}
       {/*====== Start What We Section ======*/}
@@ -171,7 +182,6 @@ const About = () => {
                     </div>
                     <div className="content">
                       <h4>Safety is Always First </h4>
-                    
                     </div>
                   </div>
                   <div className="single-features-list mb-40">
@@ -185,7 +195,6 @@ const About = () => {
                     </div>
                     <div className="content">
                       <h4>Budget &amp; Friendly</h4>
-                    
                     </div>
                   </div>
                   <div className="single-features-list mb-40">
@@ -199,7 +208,6 @@ const About = () => {
                     </div>
                     <div className="content">
                       <h4>We have Trusted and Professional Travel Guide</h4>
-                 
                     </div>
                   </div>
                 </div>
@@ -265,11 +273,10 @@ const About = () => {
       </section>
       {/*====== End CTA Section ======*/}
       {/*====== Start Testimonial Section ======*/}
-     
+
       {/*====== End Testimonial Section ======*/}
-    
+
       {/*====== Start Gallery Section ======*/}
-      
     </Layout>
   );
 };

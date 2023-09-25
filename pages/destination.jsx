@@ -5,6 +5,7 @@ const Destination = () => {
   return (
     <Layout extraClass={"pt-160"}>
       <PageBanner pageTitle={"Destinations"} />
+      <br/><br/>
       {/*====== Start Destination Section ======*/}
       <section className="destination-section pb-100">
         <div className="container">
