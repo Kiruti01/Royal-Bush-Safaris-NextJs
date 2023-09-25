@@ -1,13 +1,7 @@
 import Home3Slider from "@/src/components/sliders/Home3";
 import Layout from "@/src/layout/Layout";
-import {
-  partnerSliderOne,
-  sliderActive3Item,
-  sliderActive3ItemDot,
-} from "@/src/sliderProps";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-import Slider from "react-slick";
 import ReactPlayer from "react-player/youtube";
 import Head from "next/head";
 
@@ -19,11 +13,38 @@ const Index3 = () => {
     <Layout header={3} footerBG={"gray"}>
       {/*====== Start Hero Section ======*/}
       <Head>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>Royal Bush Sa</title>
+        <title>Royal Bush Safaris - Tours and Travel Company</title>
+        <meta
+          name="description"
+          content="Explore Kenya with Royal Bush Safaris, the number 1 Tours and Travel Company. Book your adventure now!"
+        />
+        <meta
+          name="keywords"
+          content="Royal Bush Safaris, Tours and Travel, Kenya Tours, Travel Company"
+        />
         <script
-          key="structured-1"
           type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: `
+        {
+          "@context": "http://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Royal Bush Safaris",
+          "description": "Tours and Travel Company in Kenya",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Gandhi Ave, Nairobi",
+            "addressLocality": "Nairobi",
+            "addressRegion": "Nairobi",
+            "postalCode": "00100",
+            "addressCountry": "Kenya"
+          },
+          "telephone": "+254115880418",
+          "url": "https://royalbushsafaris.co.ke/",
+          "sameAs": ["https://www.facebook.com/RoyalBushSafaris/", "https://twitter.com/RoyalBushSafaris"]
+        }
+      `,
+          }}
         />
       </Head>
       <Home3Slider />
@@ -156,141 +177,6 @@ const Index3 = () => {
           </div>
         </div>
       </section>
-      {/*====== End About Section ======*/}
-      {/*====== Start Service Section ======*/}
-      {/* <section className="service-section pt-100 pb-60">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-xl-7"> */}
-      {/*=== Section Title ===*/}
-      {/* <div className="section-title text-center mb-50">
-                <span className="sub-title">Popular Services</span>
-                <h2>Amazing Adventure Camping Services for Enjoyed</h2>
-              </div>
-            </div>
-          </div>
-          <Slider {...sliderActive3Item} className="slider-active-3-item"> */}
-      {/*=== Service Item ===*/}
-      {/* <div className="single-service-item-three mb-40">
-              <div className="content">
-                <h3 className="title">
-                  <a href="#">Classic Tents</a>
-                </h3>
-                <p>
-                  Sit amet consecteturauris natoque name pellentue augue mattis
-                  faucibus
-                </p>
-                <img
-                  src="assets/images/service/service-4.jpg"
-                  alt="service image"
-                />
-                <a href="#" className="btn-link">
-                  Read More
-                  <i className="far fa-long-arrow-right" />
-                </a>
-                <div className="meta">
-                  <span className="icon">
-                    <i className="flaticon-blanket" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-cat" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-tent" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-fire" />
-                  </span>
-                  <span className="rate">
-                    <i className="fas fa-star" />
-                    4.9
-                  </span>
-                </div>
-              </div>
-            </div> */}
-      {/*=== Service Item ===*/}
-      {/* <div className="single-service-item-three mb-40">
-              <div className="content">
-                <h3 className="title">
-                  <a href="#">Caravan Solar Tent</a>
-                </h3>
-                <p>
-                  We denounce with righteous indignation and beguiled and
-                  demoralized
-                </p>
-                <img
-                  src="assets/images/service/service-5.jpg"
-                  alt="service image"
-                />
-                <a href="#" className="btn-link">
-                  Read More
-                  <i className="far fa-long-arrow-right" />
-                </a>
-                <div className="meta">
-                  <span className="icon">
-                    <i className="flaticon-blanket" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-cat" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-tent" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-fire" />
-                  </span>
-                  <span className="rate">
-                    <i className="fas fa-star" />
-                    4.9
-                  </span>
-                </div>
-              </div>
-            </div> */}
-      {/*=== Service Item ===*/}
-      {/* <div className="single-service-item-three mb-40">
-              <div className="content">
-                <h3 className="title">
-                  <Link legacyBehavior href="/tour-details">
-                    <a>Small Cabin Wood</a>
-                  </Link>
-                </h3>
-                <p>
-                  To take trivial example which undertakes laborious physical
-                  exercise chooses
-                </p>
-                <img
-                  src="assets/images/service/service-6.jpg"
-                  alt="service image"
-                />
-                <a href="#" className="btn-link">
-                  Read More
-                  <i className="far fa-long-arrow-right" />
-                </a>
-                <div className="meta">
-                  <span className="icon">
-                    <i className="flaticon-blanket" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-cat" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-tent" />
-                  </span>
-                  <span className="icon">
-                    <i className="flaticon-fire" />
-                  </span>
-                  <span className="rate">
-                    <i className="fas fa-star" />
-                    4.9
-                  </span>
-                </div>
-              </div>
-            </div>
-          </Slider>
-        </div>
-      </section> */}
-      {/*====== End Service Section ======*/}
-      {/*====== Start CTA Section ======*/}
       <section
         className="cta-bg overlay bg_cover pt-150 pb-150"
         style={{ backgroundImage: "url(assets/images/bg/cta-bg2.jpg)" }}
@@ -425,10 +311,6 @@ const Index3 = () => {
                     </div>
                     <div className="content">
                       <h4>We are Trusted Travel Guide</h4>
-                      {/* <p>
-                        At vero accusamus dignissimos ducimus blanditiis
-                        praesentium voluptatum deleniti atque quos
-                      </p> */}
                     </div>
                   </div>
                 </div>

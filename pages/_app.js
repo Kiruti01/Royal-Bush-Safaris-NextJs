@@ -17,8 +17,8 @@ export default function App({ Component, pageProps }) {
         {/*====== Required meta tags ======*/}
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta name="title" content="Royal Bush Safaris" />
-        <meta name="description" content="Tours & Travel" />
+        <meta property="og:title" content="Royal Bush Safaris" />
+        <meta property="og:description" content="Tours & Travel" />
         <meta name="keywords" content="Royal Bush Safaris, Tours & Travel " />
 
         <meta
