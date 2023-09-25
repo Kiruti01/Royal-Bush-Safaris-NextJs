@@ -5,23 +5,32 @@ import { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import axios from "axios";
+import emailjs from 'emailjs-com';
+emailjs.init('Royalbushsafariske@gmail.com'); // Replace 'YOUR_USER_ID' with your actual EmailJS user ID
+
 
 const Tour = () => {
-  const [accommodations, setAccommodations] = useState([]);
   const [checkInDate, setCheckInDate] = useState(null);
-const [checkOutDate, setCheckOutDate] = useState(null);
-
-
-  useEffect(() => {
-    axios
-      .get("YOUR_API_URL_HERE")
-      .then((response) => {
-        setAccommodations(response.data);
-      })
-      .catch((error) => {
-        console.error("Error fetching accommodations:", error);
+  const [checkOutDate, setCheckOutDate] = useState(null);
+  const accommodations = [
+    { id: 1, name: 'Hotel A' },
+    { id: 2, name: 'Hotel B' },
+    { id: 3, name: 'Hotel C' },
+    // Add more hotels as needed
+  ];
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  
+    emailjs.sendForm('service_sfczkln', 'template_4iy642f', e.target, 'YOUR_USER_ID')
+      .then((result) => {
+        console.log('Email sent successfully:', result.text);
+      }, (error) => {
+        console.error('Error sending email:', error.text);
       });
-  }, []);
+  }
+
+
+ 
   return (
     <Layout extraClass={"pt-160"}>
       <PageBanner pageTitle={"Explore with us"} />
@@ -29,7 +38,7 @@ const [checkOutDate, setCheckOutDate] = useState(null);
       <section className="booking-form-section pb-100">
         <div className="container-fluid">
           <div className="booking-form-wrapper p-r z-2">
-            <form className="booking-form-two">
+            <form className="booking-form-two" onSubmit={handleSubmit}>
               <div className="form_group">
                 <span>Check In</span>
                 <label>
