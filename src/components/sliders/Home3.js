@@ -19,14 +19,7 @@ export default class Home3Slider extends Component {
     return (
       <section className="hero-section">
         <div className="hero-wrapper-three">
-          <div className="hero-arrows">
-            <div className="prev slick-arrow" onClick={this.previous}>
-              <i className="far fa-arrow-left" />
-            </div>
-            <div className="next slick-arrow" onClick={this.next}>
-              <i className="far fa-arrow-right" />
-            </div>
-          </div>
+       
           <Slider
             {...home3Slider}
             ref={(c) => (this.slider = c)}
