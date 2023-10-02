@@ -1,6 +1,7 @@
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
 import Link from "next/link";
+import Rhino from "../public/Rhino.jpeg"
 const Destination = () => {
   return (
     <Layout extraClass={"pt-160"}>
@@ -14,7 +15,7 @@ const Destination = () => {
               <div className="single-place-item-two mb-30 wow fadeInUp">
                 <div className="place-img">
                   <img
-                    src="https://cdn-cmaef.nitrocdn.com/jRrqUCcBXKJwaLsDAONdssgqlBCcrZDS/assets/images/optimized/rev-1931450/www.naturaltoursandsafaris.com/wp-content/webp-express/webp-images/uploads/2019/08/67899563_1127201957472806_417877908533458110_n.jpg.webp"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Bot6B5hrQiCwiB4U1JWFQ1Ln1TLxDWvENe4bLip9GIGAx2HRKe0YrIR_vccV7I2_sDg&usqp=CAU"
                     alt="Place Image"
                   />
                   <span className="tour-count">New</span>
