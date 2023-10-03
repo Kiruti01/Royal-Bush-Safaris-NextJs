@@ -2,6 +2,7 @@ import React from "react";
 import emailjs from "emailjs-com";
 import PageBanner from "@/src/components/PageBanner";
 import Layout from "@/src/layout/Layout";
+import WhatsAppButton from "./Whatsapp/WhatsappButton"
 
 const Contact = () => {
   // Initialize EmailJS
@@ -206,6 +207,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <WhatsAppButton />
+
     </Layout>
   );
 };
