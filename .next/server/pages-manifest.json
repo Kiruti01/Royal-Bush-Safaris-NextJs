@@ -2,5 +2,21 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/southernpalms": "pages/southernpalms.js"
+  "/Kereita": "pages/Kereita.html",
+  "/Mara": "pages/Mara.html",
+  "/Ngare": "pages/Ngare.html",
+  "/Whatsapp/WhatsappButton": "pages/Whatsapp/WhatsappButton.html",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/contact": "pages/contact.html",
+  "/destination": "pages/destination.html",
+  "/gallery": "pages/gallery.html",
+  "/": "pages/index.html",
+  "/nairobi-park": "pages/nairobi-park.html",
+  "/neptune": "pages/neptune.html",
+  "/nkasiri": "pages/nkasiri.html",
+  "/prideinn": "pages/prideinn.html",
+  "/southernpalms": "pages/southernpalms.html",
+  "/tours": "pages/tours.html",
+  "/404": "pages/404.html"
 }
