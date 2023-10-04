@@ -10,7 +10,7 @@ const Counter = dynamic(() => import("@/src/components/Counter"), {
 });
 const Index3 = () => {
   return (
-    <Layout header={3} footerBG={"gray"}>
+    <Layout header={5} footerBG={"gray"}>
       {/*====== Start Hero Section ======*/}
       <Head>
         <title>Royal Bush Safaris - Tours and Travel Company</title>

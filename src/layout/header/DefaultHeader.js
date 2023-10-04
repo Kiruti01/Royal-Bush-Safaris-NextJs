@@ -124,7 +124,6 @@ const DefaultHeader = () => {
               <div className="lang-dropdown">
                 <select className="wide">
                   <option value="English">English</option>
-                  <option value="French">French</option>
                 </select>
               </div>
               <div className="menu-button d-xl-block d-none">
