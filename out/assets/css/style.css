@@ -5052,6 +5052,22 @@ form.comment-form .form_control:focus {
 .whatsapp-button:hover {
   background-color: #128c7e; /* Darker shade of WhatsApp green on hover */
 }
+@media (max-width: 768px) {
+  .whatsapp-button {
+    bottom: 10px;
+    right: 10px;
+    padding: 8px;
+  }
+
+  .whatsapp-button img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.whatsapp-button:hover {
+  background-color: #128c7e; /* Darker shade of WhatsApp green on hover */
+}
 
 .contact-info-item {
   border-radius: 12px;

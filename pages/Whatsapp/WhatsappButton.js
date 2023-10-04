@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 class WhatsAppButton extends Component {
   handleWhatsAppClick = () => {
-    window.open('https://api.whatsapp.com/send?phone=+254115880418', '_blank');
+    window.open('https://wa.link/1qezrk', '_blank');
   };
 
   render() {

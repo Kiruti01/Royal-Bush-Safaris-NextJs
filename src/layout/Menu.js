@@ -71,6 +71,11 @@ const DeskTopMenu = () => {
                       3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE
                     </Link>
                   </li>
+                  <li>
+              <Link href="southernpalms">
+              3 DAYS 2 NIGHTS SOUTHERN PALMS BEACH RESORT, DIANI
+              </Link>
+            </li>
                 </ul>
               </li>
               <li className="menu-item has-children">
@@ -90,6 +95,7 @@ const DeskTopMenu = () => {
               <li>
                 <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
               </li>
+              
                 </ul>
               </li>
             </ul>
@@ -156,6 +162,12 @@ const MobileMenu = () => {
             <li>
               <Link href="neptune">
                 3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE
+              </Link>
+            </li>
+            <li>
+              <Link href="southernpalms">
+              3 DAYS 2 NIGHTS SOUTHERN PALMS BEACH RESORT, DIANI
+
               </Link>
             </li>
           </ul>

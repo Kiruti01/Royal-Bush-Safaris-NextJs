@@ -177,6 +177,10 @@ const Contact = () => {
                             <option value="2 NIGHTS PRIDEINN HOTELS">
                             2 NIGHTS PRIDEINN HOTELS
                             </option>
+                            <option value="2 NIGHTS PRIDEINN HOTELS">
+                            3 Days 2 Nights Southern Palms Beach Resort
+                            </option>
+                            
                           </select>
                         </div>
                       </div>
