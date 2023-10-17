@@ -6,13 +6,13 @@ import Slider from "react-slick";
 const DestinationDetails = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"Masai Mara wildbeest Migration"} />
+      <PageBanner pageTitle={"3 Days 2 Nights Maasai Mara"} />
       {/*====== Start Destination Details Section ======*/}
       <section className="destination-details-section pt-100 pb-70">
         <div className="container">
           <div className="destination-details-wrapper">
             <div className="destination-info wow fadeInUp">
-              <h3 className="title">2 Days Masai Mara </h3>
+              <h3 className="title">3 DAYS 2 NIGHTS MAASAI MARA </h3>
               <div className="meta">
                 <span className="location">
                   <i className="fas fa-map-marker-alt" />
@@ -43,22 +43,42 @@ const DestinationDetails = () => {
                   />
                 </div>
               </div>
-              <h3>Why Choose Masai Mara wildbeest Migration</h3>
+              <h3>Itenerary</h3>
               <p>
-                Day 1 Depart Nairobi at 6am, enjoy the scenic Great Rift Valley
-                with a Stop Over at Narok (Supermarket ) then proceed to Mara
-                arriving at the Tented Camp for Lunch & check in. Later in the
-                afternoon enjoy an amazing afternoon/evening game drive till
-                around 6pm Go back to the Tented Camp to relax & have Dinner
-                Later enjoy the #royalbushsafariske evening fun games and
-                stories around the bonfire
+                Day 1: - Morning: Arrive at Maasai Mara and check-in at your
+                chosen accommodation. - Afternoon: Enjoy a game drive in the
+                reserve. Look out for the "Big Five" (lion, leopard, elephant,
+                buffalo, and rhinoceros) and other wildlife. - Evening: Return
+                to your accommodation for dinner and relaxation.
                 <br />
-                Day 2 ; Morning Breakfast at around 8.00AM to 9.00AM ,Check Out
-                of the Tented Camp, head for another game drive as we later in
-                the afternoon(till 12 noon) exit the National Reserve & head
-                back to Nairobi after an amazing 2 days #royalbushsafariske
-                experience.
+                <br/>
+
+                Day 2: - Morning: Early morning game drive to witness wildlife
+                activity during the cool hours. You might see predators on the
+                hunt. - Mid-morning: Return to your lodge for breakfast and some
+                leisure time. - Afternoon: Visit a Maasai village to learn about
+                their culture and traditions. - Evening: Another game drive to
+                explore different areas of the reserve, followed by dinner.
                 <br />
+                <br/>
+
+                Day 3: - Morning: Depart on a hot air balloon safari for a
+                unique perspective of the Mara's landscape and wildlife
+                (optional, but highly recommended). - Mid-morning: Return to
+                your lodge for breakfast and packing. - Check-out and depart
+                Maasai Mara, or you can choose to extend your stay with more
+                activities or game drives.
+                <br />
+                <br/>
+                <strong>NOTE: </strong>
+                Remember that the wildlife sightings can be unpredictable, so
+                it's a good idea to be flexible with your schedule and take the
+                opportunity to observe and appreciate the natural beauty of
+                Maasai Mara. Also, consider hiring a local guide or joining a
+                tour for a more enriching experience.
+                <br/>
+                <br/>
+
                 <h3>Payment</h3>
                 <p>
                   (Payable in installments) & Non Refundable if you CANCEL 6
@@ -106,7 +126,7 @@ const DestinationDetails = () => {
                 </li>
                 <li>
                   <span>
-                    <i class="fas fa-badge-check"></i> Meals on full board
+                    <i class="fas fa-badge-check"></i> Meals on full board
                   </span>
                 </li>
                 <li>

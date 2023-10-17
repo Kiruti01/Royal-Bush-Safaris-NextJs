@@ -43,27 +43,35 @@ const DestinationDetails = () => {
                   />
                 </div>
               </div>
-              <h3>Why Choose Nairobi National Park and Giraffe Center</h3>
+              <h3>itenerary</h3>
               <p>
-                Nairobi National Park is unique as the only protected area in
-                the world with such a huge variety of animals and birds close to
-                a capital city. It is a principal attraction for visitors to
-                Nairobi and also serves many local residents. As a successful
-                rhino sanctuary, the park has an excellent record for supporting
-                the species and nurturing them until they are re-located to
-                their former range and to other upcoming sanctuaries. Due to
-                this success, it is one of the few parks where a visitor can be
-                certain of seeing a black rhino in its natural environment. The
-                Giraffe Centre in Nairobi, Kenya is a popular tourist attraction
-                and a conservation center dedicated to the preservation and
-                protection of the endangered Rothschild giraffe species. Here
-                are some key details about the Giraffe Centre: Location: The
-                Giraffe Centre is located in the Langata suburb of Nairobi,
-                approximately 20 kilometers from the city center. Conservation
-                Focus: The center's primary objective is to save the Rothschild
-                giraffe, which is one of the most endangered giraffe subspecies.
-                They work towards increasing the population of giraffes through
-                breeding and reintroduction programs.
+                1. Nairobi National Park: - Start your day early to maximize
+                wildlife sightings. Nairobi National Park is unique as it's
+                located just outside the city. - Enter the park and embark on a
+                game drive. Look out for a variety of animals, including lions,
+                giraffes, zebras, and rhinos. The park is known for its diverse
+                wildlife. - Visit the Ivory Burning Site Monument to learn about
+                conservation efforts.
+                <br />
+                <br />
+                <strong>Mid-morning </strong>
+                <br/>
+                2. Giraffe Centre: - Leave Nairobi National Park and head to
+                the Giraffe Centre, which is relatively nearby. - At the Giraffe
+                Centre, you can get up close to endangered Rothschild's
+                giraffes. Enjoy feeding and photographing these magnificent
+                creatures from an elevated platform. - Learn about giraffe
+                conservation efforts and the center's educational programs
+                <br />
+                <br />
+                3. Lunch Break: - Depending on your schedule, you can have
+                lunch at a nearby restaurant or return to Nairobi for a wider
+                range of dining options.
+                <br />
+                <br />
+                Evening: Return to Nairobi CBD: - Head back to your
+                accommodation in Nairobi or the airport, depending on your
+                travel plans.
                 <p class="price">
                   <i class="fas fa-usd-circle"></i> Price{" "}
                   <span class="currency"> KSH</span> 3800 per person
@@ -99,19 +107,18 @@ const DestinationDetails = () => {
                 </li>
                 <li>
                   <span>
-                    <i class="fas fa-do-not-enter"></i> Park
-                    fees
+                    <i class="fas fa-do-not-enter"></i> Park fees
                   </span>
                 </li>
                 <li>
                   <span>
-                    <i class="fas fa-do-not-enter" ></i>
+                    <i class="fas fa-do-not-enter"></i>
                     Giraffe Centre entry fees
                   </span>
                 </li>
                 <li>
                   <span>
-                    <i class="fas fa-do-not-enter" ></i>
+                    <i class="fas fa-do-not-enter"></i>
                     Lunch/ refreshments
                   </span>
                 </li>
@@ -208,8 +215,6 @@ const DestinationDetails = () => {
         </div>
       </section>
       {/*====== End CTA Section ======*/}
-     
-    
     </Layout>
   );
 };

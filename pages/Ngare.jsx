@@ -44,24 +44,67 @@ const DestinationDetails = () => {
                   />
                 </div>
               </div>
-              <h3>Charges; Ksh. 4,500 per person </h3>
-              <strong>What to carry</strong>
-              <br />
-              ~ Swimming Costumes <br />
-              ~ Snacks
-              <br />
-              ~ ID/Passport
-              <br />
-              ~ Backpack to carry your personal items
-              <br />
-              ~ Reusable water bottles
-              <br />
-              ~ Reusable water bottles
-              <br />
-              <br />
-              For Bookings & inquiries call / whatssapp; +254115880418
-              <br />
-              <br />
+              <p>
+                <h4>Itenerary</h4>
+                <strong>*Morning:*</strong>
+                <br/>
+                 1. *Early Departure:* - Start your day early from
+                Nairobi or your location of stay to make the most of your time
+                at Ngare Ndare Forest.
+                <br/>
+                <br/>
+                 2. *Arrival at Ngare Ndare:* - Arrive at
+                the Ngare Ndare Forest gate, where you'll pay the entrance fee
+                and receive any necessary permits or guides. 
+                <br/>
+                <br/>
+                3. *Nature Walk:* -
+                Begin your adventure with a guided nature walk through the
+                forest. The forest is known for its pristine streams,
+                waterfalls, and diverse flora and fauna. - Along the way, you'll
+                have opportunities to spot wildlife such as elephants,
+                buffaloes, and various bird species.
+                <br/>
+                <br/>
+                <strong> *Midday:</strong>
+                 <br/>
+                 
+                  4. *Picnic
+                Lunch:* - Take a break for a picnic lunch amidst the natural
+                beauty of the forest. Most visitors bring their own packed
+                lunch. *Afternoon:*
+                <br/>
+                <br/>
+                 5. *Swimming and Waterfalls:* - Continue
+                your exploration of the forest, making your way to the Ngare
+                Ndare River. - Enjoy a refreshing swim in the crystal-clear blue
+                pools of the river, or simply relax by the waterfalls and take
+                in the scenery. 
+                <br/>
+                <br/>
+                6. *Canopy Walk:* - One of the highlights of
+                Ngare
+                <br/>
+                <br/>
+                <h3>Charges; Ksh. 4,500 per person </h3>
+                <strong>What to carry</strong>
+                <br />
+                ~ Swimming Costumes <br />
+                ~ Snacks
+                <br />
+                ~ ID/Passport
+                <br />
+                ~ Backpack to carry your personal items
+                <br />
+                ~ Reusable water bottles
+                <br />
+                ~ Reusable water bottles
+                <br />
+                <br />
+                For Bookings & inquiries call / whatssapp; +254115880418
+                <br />
+                <br />
+              </p>
               <Link legacyBehavior href="contact">
                 <a className="main-btn primary-btn">
                   Book Now
@@ -133,7 +176,6 @@ const DestinationDetails = () => {
             <div className="gallery-area wow fadeInUp">
               <Slider {...sliderActive3Item} className="slider-active-3-item">
                 {/*=== Single Gallery Item ===*/}
-             
               </Slider>
             </div>
           </div>

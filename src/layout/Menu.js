@@ -72,10 +72,20 @@ const DeskTopMenu = () => {
                     </Link>
                   </li>
                   <li>
-              <Link href="southernpalms">
-              3 DAYS 2 NIGHTS SOUTHERN PALMS BEACH RESORT, DIANI
-              </Link>
-            </li>
+                    <Link href="tsavoWest">
+                      3 DAYS 2 NIGHTS TSAVO WEST NATIONAL PARK
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="southernpalms">
+                      3 DAYS 2 NIGHTS SOUTHERN PALMS BEACH RESORT, DIANI
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="amboseli">
+                      3 DAYS 2 NIGHTS AMBOSELI NATIONAL PARK
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li className="menu-item has-children">
@@ -86,16 +96,18 @@ const DeskTopMenu = () => {
                   </span>
                 </a>
                 <ul className="sub-menu">
-                <li>
-                <Link href="Kereita">KEREITA ZIPLINING ADVENTURE</Link>
-              </li>
-              <li>
-                <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
-              </li>
-              <li>
-                <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
-              </li>
-              
+                  <li>
+                    <Link href="Kereita">KEREITA ZIPLINING ADVENTURE</Link>
+                  </li>
+                  <li>
+                    <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
+                  </li>
+                  <li>
+                    <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
+                  </li>
+                  <li>
+                    <Link href="mamba">Mamba Village</Link>
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -119,7 +131,7 @@ const DeskTopMenu = () => {
 
 const MobileMenu = () => {
   const [activeMenu, setActiveMenu] = useState("");
-  
+
   const toggleSubMenu = (menu) => {
     setActiveMenu(activeMenu === menu ? "" : menu);
   };
@@ -152,7 +164,7 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Destination")}>           
+          <ul className="sub-menu" style={activeLi("Destination")}>
             <li>
               <Link href="Mara">2DAYS MAASAI MARA</Link>
             </li>
@@ -166,8 +178,17 @@ const MobileMenu = () => {
             </li>
             <li>
               <Link href="southernpalms">
-              3 DAYS 2 NIGHTS SOUTHERN PALMS BEACH RESORT, DIANI
-
+                3 DAYS 2 NIGHTS SOUTHERN PALMS BEACH RESORT, DIANI
+              </Link>
+            </li>
+            <li>
+              <Link href="tsavoWest">
+                3 DAYS 2 NIGHTS TSAVO WEST NATIONAL PARK
+              </Link>
+            </li>
+            <li>
+              <Link href="amboseli">
+                3 DAYS 2 NIGHTS AMBOSELI NATIONAL PARK
               </Link>
             </li>
           </ul>
@@ -182,11 +203,10 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Nairobi")}>           
+          <ul className="sub-menu" style={activeLi("Nairobi")}>
             <li>
               <Link href="nairobi-park">Nairobi National Park</Link>
             </li>
-        
           </ul>
         </li>
         <li className="menu-item has-children">
@@ -199,20 +219,22 @@ const MobileMenu = () => {
               <i className="far fa-angle-down" />
             </span>
           </a>
-          <ul className="sub-menu" style={activeLi("Day Trips")}>           
-          <li>
-                <Link href="Kereita">KEREITA ZIPLINING ADVENTURE</Link>
-              </li>
-              <li>
-                <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
-              </li>
-              <li>
-                <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
-              </li>
-        
+          <ul className="sub-menu" style={activeLi("Day Trips")}>
+            <li>
+              <Link href="Kereita">KEREITA ZIPLINING ADVENTURE</Link>
+            </li>
+            <li>
+              <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
+            </li>
+            <li>
+              <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
+            </li>
+            <li>
+              <Link href="mamba">Mamba Village</Link>
+            </li>
           </ul>
         </li>
-        
+
         <li className="menu-item search-item">
           <div
             className="search-btn"
