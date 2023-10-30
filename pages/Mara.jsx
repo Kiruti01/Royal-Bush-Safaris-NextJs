@@ -6,13 +6,13 @@ import Slider from "react-slick";
 const DestinationDetails = () => {
   return (
     <Layout extraClass={"pt-160"}>
-      <PageBanner pageTitle={"3 Days 2 Nights Maasai Mara"} />
+      <PageBanner pageTitle={"2 Days Maasai Mara"} />
       {/*====== Start Destination Details Section ======*/}
       <section className="destination-details-section pt-100 pb-70">
         <div className="container">
           <div className="destination-details-wrapper">
             <div className="destination-info wow fadeInUp">
-              <h3 className="title">3 DAYS 2 NIGHTS MAASAI MARA </h3>
+              <h3 className="title">2 DAYS MAASAI MARA </h3>
               <div className="meta">
                 <span className="location">
                   <i className="fas fa-map-marker-alt" />
@@ -45,27 +45,27 @@ const DestinationDetails = () => {
               </div>
               <h3>Itenerary</h3>
               <p>
-                Day 1: - Morning: Arrive at Maasai Mara and check-in at your
-                chosen accommodation. - Afternoon: Enjoy a game drive in the
+                Day 1: <br/>- Morning: Arrive at Maasai Mara and check-in at your
+                chosen accommodation. <br/>- Afternoon: Enjoy a game drive in the
                 reserve. Look out for the "Big Five" (lion, leopard, elephant,
-                buffalo, and rhinoceros) and other wildlife. - Evening: Return
+                buffalo, and rhinoceros) and other wildlife. <br/>- Evening: Return
                 to your accommodation for dinner and relaxation.
                 <br />
                 <br/>
 
-                Day 2: - Morning: Early morning game drive to witness wildlife
+                Day 2: <br/>- Morning: Early morning game drive to witness wildlife
                 activity during the cool hours. You might see predators on the
-                hunt. - Mid-morning: Return to your lodge for breakfast and some
-                leisure time. - Afternoon: Visit a Maasai village to learn about
-                their culture and traditions. - Evening: Another game drive to
+                hunt. <br/>- Mid-morning: Return to your lodge for breakfast and some
+                leisure time. <br/>- Afternoon: Visit a Maasai village to learn about
+                their culture and traditions. <br/>- Evening: Another game drive to
                 explore different areas of the reserve, followed by dinner.
                 <br />
                 <br/>
 
-                Day 3: - Morning: Depart on a hot air balloon safari for a
+                Day 3: <br/>- Morning: Depart on a hot air balloon safari for a
                 unique perspective of the Mara's landscape and wildlife
-                (optional, but highly recommended). - Mid-morning: Return to
-                your lodge for breakfast and packing. - Check-out and depart
+                (optional, but highly recommended). <br/>- Mid-morning: Return to
+                your lodge for breakfast and packing. <br/>- Check-out and depart
                 Maasai Mara, or you can choose to extend your stay with more
                 activities or game drives.
                 <br />
@@ -140,6 +140,8 @@ const DestinationDetails = () => {
                   </span>
                 </li>
               </ul>
+              <h3>EXCLUSIONS</h3>
+              <br/>
               <ul class="features-list mb-40">
                 <li>
                   <span>

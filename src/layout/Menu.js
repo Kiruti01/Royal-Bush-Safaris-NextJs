@@ -64,10 +64,10 @@ const DeskTopMenu = () => {
                     <Link href="prideinn">3 DAYS 2 NIGHTS PRIDEINN HOTELS</Link>
                   </li>
                   <li>
-                    <Link href="Mara">2DAYS MAASAI MARA</Link>
+                    <Link href="Mara">2 DAYS MAASAI MARA</Link>
                   </li>
                   <li>
-                    <Link href="mara2">3 DAYS 2 NIGHTS MAASAI MARA</Link>
+                    <Link href="3_days_mara">3 DAYS 2 NIGHTS MAASAI MARA</Link>
                   </li>
                   <li>
                     <Link href="neptune">
@@ -106,10 +106,10 @@ const DeskTopMenu = () => {
                     <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
                   </li>
                   <li>
-                    <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
+                    <Link href="Ngare">NGARE NDARE DAY TRIP</Link>
                   </li>
                   <li>
-                    <Link href="mamba">Mamba Village</Link>
+                    <Link href="mamba">MAMBA VILLAGE</Link>
                   </li>
                 </ul>
               </li>
@@ -169,10 +169,10 @@ const MobileMenu = () => {
           </a>
           <ul className="sub-menu" style={activeLi("Destination")}>
             <li>
-              <Link href="Mara">2DAYS MAASAI MARA</Link>
+              <Link href="Mara">2 DAYS MAASAI MARA</Link>
             </li>
             <li>
-              <Link href="mara2">3 DAYS 2 NIGHTS MAASAI MARA</Link>
+              <Link href="3_days_mara">3 DAYS 2 NIGHTS MAASAI MARA</Link>
             </li>
             <li>
               <Link href="prideinn">3 DAYS 2 NIGHTS PRIDEINN HOTELS</Link>
@@ -233,10 +233,10 @@ const MobileMenu = () => {
               <Link href="nkasiri">NKASIRI ADVENTURE PARK</Link>
             </li>
             <li>
-              <Link href="Ngare">𝐍𝐠𝐚𝐫𝐞 𝐍𝐝𝐚𝐫𝐞 𝐃𝐚𝐲 𝐓𝐫𝐢𝐩</Link>
+              <Link href="Ngare">NGARE NDARE DAY TRIP</Link>
             </li>
             <li>
-              <Link href="mamba">Mamba Village</Link>
+              <Link href="mamba">MAMBA VILLAGE</Link>
             </li>
           </ul>
         </li>
