@@ -67,7 +67,7 @@ const DeskTopMenu = () => {
                     <Link href="Mara">2DAYS MAASAI MARA</Link>
                   </li>
                   <li>
-                    <Link href="Mara2">3 DAYS 2 NIGHTS MAASAI MARA</Link>
+                    <Link href="mara2">3 DAYS 2 NIGHTS MAASAI MARA</Link>
                   </li>
                   <li>
                     <Link href="neptune">
@@ -172,7 +172,7 @@ const MobileMenu = () => {
               <Link href="Mara">2DAYS MAASAI MARA</Link>
             </li>
             <li>
-              <Link href="Mara2">3 DAYS 2 NIGHTS MAASAI MARA</Link>
+              <Link href="mara2">3 DAYS 2 NIGHTS MAASAI MARA</Link>
             </li>
             <li>
               <Link href="prideinn">3 DAYS 2 NIGHTS PRIDEINN HOTELS</Link>
