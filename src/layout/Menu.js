@@ -67,6 +67,9 @@ const DeskTopMenu = () => {
                     <Link href="Mara">2DAYS MAASAI MARA</Link>
                   </li>
                   <li>
+                    <Link href="Mara2">3 DAYS 2 NIGHTS MAASAI MARA</Link>
+                  </li>
+                  <li>
                     <Link href="neptune">
                       3 DAYS NEPTUNE MARA RIANTA FLYING PACKAGE
                     </Link>
@@ -167,6 +170,9 @@ const MobileMenu = () => {
           <ul className="sub-menu" style={activeLi("Destination")}>
             <li>
               <Link href="Mara">2DAYS MAASAI MARA</Link>
+            </li>
+            <li>
+              <Link href="Mara2">3 DAYS 2 NIGHTS MAASAI MARA</Link>
             </li>
             <li>
               <Link href="prideinn">3 DAYS 2 NIGHTS PRIDEINN HOTELS</Link>
