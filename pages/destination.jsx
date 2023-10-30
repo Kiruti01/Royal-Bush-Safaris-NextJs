@@ -107,6 +107,25 @@ const Destination = () => {
               <div className="single-place-item-two mb-30">
                 <div className="place-img">
                   <img
+                    src="https://wilderness-bookings.b-cdn.net/ord-group/websites/maasai-mara/home/maasai-mara-lion-king.jpeg"
+                    alt="Place Image"
+                  />
+                  <span className="tour-count">New </span>
+                  <div className="place-content">
+                    <div className="info text-white">
+                      <h3 className="title mb-10"> 3 Days 2 Nights Masai Mara</h3>
+                      <p className="price">
+                        <span className="currency"> ksh </span> 14950/=
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
+              <div className="single-place-item-two mb-30">
+                <div className="place-img">
+                  <img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZSpcdh9BK70PkgYHwFmCJ5kfKZztIVEtPnKTlswOtGN2cq87qVpuoSAmwc5yohtj8mvo&usqp=CAU"
                     alt="Place Image"
                   />
